@@ -15,7 +15,7 @@ export default function DonationFooter() {
         {/* Parte superior */}
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
 
-          {/* Logo */}
+          {/* Logo el icono de instaram debe estar al lado del logo*/}
           <div>
             <Image
               src='/footer/logocma.jpeg'
@@ -24,6 +24,22 @@ export default function DonationFooter() {
               height={20}
               className="mb-4 h-30 w-auto"
             />
+            <div className="flex items-center gap-3">
+              <Link
+                href="https://www.instagram.com/fundacioncma/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-300 hover:text-white"
+              >
+              <Image
+                src='/svg/instagram.svg'
+                alt="Instagram"
+                width={40}
+                height={40}
+              />
+
+              </Link>
+            </div>
           </div>
 
           {/* Atención */}
@@ -82,25 +98,6 @@ export default function DonationFooter() {
 
         {/* Parte inferior con icono de instagram*/}
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-          <div className="flex items-center gap-2">
-            <Link
-              href="https://www.instagram.com/fundacioncma/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-300 hover:text-white"
-            >
-              
-            <Image
-              src="/svg/instagram.svg"
-              alt="Instagram"
-              width={50}
-              height={50}
-              color="white"
-              
-            />
-            
-            </Link>
-          </div>
           <div className="text-gray-300 text-sm">
 
             ©2026 Fundación Centro Mariana de Alfabetización - All rights reserved |
