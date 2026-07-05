@@ -13,7 +13,7 @@ const benefits = [
   {
     title: "online events",
     description: "Participate in exclusive online events.",
-    image: "/Carrusel/Obra-teatro.jpg",
+    image: "/Carrusel/Obra-teatro.png",
   },
   {
     title: "Newsletters",
