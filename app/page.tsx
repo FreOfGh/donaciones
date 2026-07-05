@@ -24,8 +24,8 @@ export const metadata: Metadata = {
         images: 
             {
                 url: process.env.NEXT_PUBLIC_SITE_URL + 'logocma.jpeg',
-                width: 800,
-                height: 800,
+                width: 400,
+                height: 400,
             },
         
 
