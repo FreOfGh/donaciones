@@ -25,6 +25,8 @@ export const metadata: Metadata = {
         images: 
             {
                 url:  opengraphImage,
+                secureUrl: opengraphImage,
+                alt: 'Donation page fundacion Centro Mariana de Alfabetización',
                 width: 400,
                 height: 400,
             },
