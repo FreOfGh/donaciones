@@ -80,10 +80,29 @@ export default function DonationFooter() {
         {/* Línea */}
         <div className="my-10 border-t border-gray-600" />
 
-        {/* Parte inferior */}
+        {/* Parte inferior con icono de instagram*/}
         <div className="flex flex-col gap-6 md:flex-row md:items-center md:justify-between">
-
+          <div className="flex items-center gap-2">
+            <Link
+              href="https://www.instagram.com/fundacioncma/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-300 hover:text-white"
+            >
+              
+            <Image
+              src="/svg/instagram.svg"
+              alt="Instagram"
+              width={50}
+              height={50}
+              color="white"
+              
+            />
+            
+            </Link>
+          </div>
           <div className="text-gray-300 text-sm">
+
             ©2026 Fundación Centro Mariana de Alfabetización - All rights reserved |
 
             <Link

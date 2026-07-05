@@ -1,5 +1,6 @@
 import Image from "next/image";
 import DonationCard from "./DonationCard";
+import instagram from '@/public/svg/instagram.svg'
 export default function Hero() {
   return (
     <section id="donate-hero"className="relative h-screen">
