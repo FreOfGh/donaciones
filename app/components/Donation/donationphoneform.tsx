@@ -60,8 +60,9 @@ export default function DonationPhoneForm() {
 
           <PhoneInput
             country="us"
-            onlyCountries={["co", "us"]}
-            preferredCountries={["co", "us"]}
+            //japon inglaterra alemania italia francia españa argentina chile mexico australia  canada
+            onlyCountries={["co", "us", "jp", "gb", "de", "it", "fr", "es", "ar", "cl", "mx", "au", "ca"]}
+            preferredCountries={[ "us"]}
             disableCountryCode={false}
             value={phone}
             onChange={(value) => setPhone(value)}
