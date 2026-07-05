@@ -2,19 +2,18 @@
 
 import { useEffect, useState } from "react";
 import Link from "next/link";
-import { CheckCircle } from "lucide-react";
-import { useSearchParams } from "next/navigation";
+import { CheckCircle, XCircle, Loader2 } from "lucide-react";
 
-export default function Success() {
-  const params = useSearchParams();
+interface Props {
+  token?: string;
+}
 
+export default function SuccessClient({ token }: Props) {
   const [loading, setLoading] = useState(true);
   const [success, setSuccess] = useState(false);
 
   useEffect(() => {
-    const capturePayment = async () => {
-      const token = params.get("token");
-
+    const capture = async () => {
       if (!token) {
         setLoading(false);
         return;
@@ -36,32 +35,35 @@ export default function Success() {
         if (response.ok && data.status === "COMPLETED") {
           setSuccess(true);
         }
-      } catch (error) {
-        console.error(error);
+      } catch (err) {
+        console.error(err);
       } finally {
         setLoading(false);
       }
     };
 
-    capturePayment();
-  }, [params]);
+    capture();
+  }, [token]);
 
   return (
-    <main className="flex min-h-screen items-center justify-center bg-gradient-to-br from-sky-50 to-blue-100 px-6">
+    <main className="flex min-h-screen items-center justify-center bg-gradient-to-br from-sky-100 via-white to-sky-50 px-6">
       <div className="w-full max-w-lg rounded-3xl bg-white p-10 text-center shadow-2xl">
-        {loading ? (
-          <>
-            <div className="mx-auto h-14 w-14 animate-spin rounded-full border-4 border-sky-500 border-t-transparent"></div>
 
-            <h2 className="mt-6 text-2xl font-bold text-gray-800">
+        {loading && (
+          <>
+            <Loader2 className="mx-auto h-20 w-20 animate-spin text-sky-600" />
+
+            <h2 className="mt-6 text-3xl font-bold text-gray-900">
               Confirming your donation...
             </h2>
 
             <p className="mt-3 text-gray-500">
-              Please wait while we verify your payment with PayPal.
+              Please wait while we verify your payment.
             </p>
           </>
-        ) : success ? (
+        )}
+
+        {!loading && success && (
           <>
             <CheckCircle className="mx-auto h-24 w-24 text-green-500" />
 
@@ -69,13 +71,13 @@ export default function Success() {
               Thank You!
             </h1>
 
-            <p className="mt-4 text-lg leading-relaxed text-gray-600">
+            <p className="mt-4 text-lg text-gray-600">
               Your donation has been successfully received.
             </p>
 
-            <p className="mt-4 text-gray-500">
-              Every contribution helps us continue supporting educational
-              programs and creating new opportunities for children and young
+            <p className="mt-4 leading-7 text-gray-500">
+              Thanks to generous supporters like you, we can continue providing
+              educational opportunities and resources for children and young
               people.
             </p>
 
@@ -83,26 +85,26 @@ export default function Success() {
               href="/"
               className="mt-8 inline-block rounded-xl bg-sky-600 px-8 py-4 text-lg font-semibold text-white transition hover:bg-sky-700"
             >
-              Back to Home
+              Return Home
             </Link>
           </>
-        ) : (
-          <>
-            <div className="mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-red-100">
-              <span className="text-5xl">❌</span>
-            </div>
+        )}
 
-            <h1 className="mt-6 text-3xl font-bold text-red-600">
-              Payment could not be confirmed
+        {!loading && !success && (
+          <>
+            <XCircle className="mx-auto h-24 w-24 text-red-500" />
+
+            <h1 className="mt-6 text-4xl font-bold text-red-600">
+              Payment Not Confirmed
             </h1>
 
             <p className="mt-4 text-gray-600">
-              We couldn't verify your donation.
+              We couldn't confirm your donation.
             </p>
 
             <p className="mt-2 text-gray-500">
-              If you believe the payment was completed, please contact us or
-              try again in a few minutes.
+              If the payment was completed, please contact us and we'll be
+              happy to help.
             </p>
 
             <Link
@@ -117,4 +119,3 @@ export default function Success() {
     </main>
   );
 }
-
