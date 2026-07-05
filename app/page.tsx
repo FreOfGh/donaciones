@@ -22,15 +22,7 @@ export const metadata: Metadata = {
         description: 'Page for donations to support the education of the chilhood in the Esmeralda Town Antioquia Colombia',
         url: process.env.NEXT_PUBLIC_SITE_URL + '/donation',
         siteName: 'Fundacion Centro Mariana de Alfabetización',
-        images: 
-            {
-                url:  opengraphImage,
-                secureUrl: opengraphImage,
-                alt: 'Donation page fundacion Centro Mariana de Alfabetización',
-                width: 400,
-                height: 400,
-            },
-        
+
 
     }
 }
