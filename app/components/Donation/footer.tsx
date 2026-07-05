@@ -36,7 +36,7 @@ export default function DonationFooter() {
 
               <div className="flex items-center gap-3">
                 <MessageCircle size={18} />
-                <span>+57 323 232 7944</span>
+                <span>+57 310 829 8815</span>
               </div>
 
               <div className="flex items-center gap-3">
@@ -55,7 +55,7 @@ export default function DonationFooter() {
 
             <div className="flex items-center gap-3 text-gray-300">
               <Phone size={18} />
-              <span>+57 323 232 7944</span>
+              <span>+57 310 829 8815</span>
             </div>
           </div>
 
@@ -69,7 +69,7 @@ export default function DonationFooter() {
               <MapPin size={18} className="mt-1" />
 
               <span>
-                Finca 143
+                Finca 156
                 <br />
                 Vereda La Esmeralda, Marinilla, Antioquia, Colombia
               </span>
