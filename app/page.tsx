@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     },
     openGraph:{
         title: 'Donation page fundacion Centro Mariana de Alfabetización',
-        description: 'Page for donations to support the education of the chilhood in the Esmeralda Town',
+        description: 'Page for donations to support the education of the chilhood in the Esmeralda Town Antioquia Colombia',
         url: process.env.NEXT_PUBLIC_SITE_URL + '/donation',
         siteName: 'Fundacion Centro Mariana de Alfabetización',
         
