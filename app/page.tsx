@@ -23,7 +23,7 @@ export const metadata: Metadata = {
         siteName: 'Fundacion Centro Mariana de Alfabetización',
         images: 
             {
-                url: process.env.NEXT_PUBLIC_SITE_URL + 'opengraph.jpeg',
+                url:  '/escucdofundacion.jpeg',
                 width: 400,
                 height: 400,
             },
