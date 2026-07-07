@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { CheckCircle, Loader2, XCircle } from "lucide-react";
@@ -11,6 +11,9 @@ export default function SuccessClient() {
 
   const [loading, setLoading] = useState(true);
   const [success, setSuccess] = useState(false);
+  
+  // Candado para evitar la doble ejecución en StrictMode
+  const hasCaptured = useRef(false);
 
   useEffect(() => {
     async function capture() {
@@ -19,8 +22,12 @@ export default function SuccessClient() {
         return;
       }
 
+      // Si ya se está capturando o ya se capturó en este ciclo de vida, salimos.
+      if (hasCaptured.current) return;
+      hasCaptured.current = true;
+
       try {
-        console.log("Token:", token);
+        console.log("Capturando Token:", token);
 
         const response = await fetch("/api/paypal/capture-order", {
           method: "POST",
@@ -33,14 +40,18 @@ export default function SuccessClient() {
         });
 
         const data = await response.json();
+        console.log("Respuesta PayPal:", data);
 
-        console.log(data);
-
+        // Ojo: Si la respuesta da un error de que ya fue capturado, 
+        // pero el recurso ya está COMPLETED, deberías considerarlo un éxito.
         if (response.ok && data.status === "COMPLETED") {
+          setSuccess(true);
+        } else if (data.details?.[0]?.issue === "ORDER_ALREADY_CAPTURED" || data.status === "COMPLETED") {
+          // Salvavidas por si la persistencia de PayPal responde el estado anterior
           setSuccess(true);
         }
       } catch (error) {
-        console.error(error);
+        console.error("Error en la pasarela de captura:", error);
       } finally {
         setLoading(false);
       }
@@ -62,11 +73,7 @@ export default function SuccessClient() {
       <main className="flex min-h-screen items-center justify-center">
         <div className="text-center">
           <CheckCircle className="mx-auto h-24 w-24 text-green-500" />
-
-          <h1 className="mt-6 text-4xl font-bold">
-            Thank you!
-          </h1>
-
+          <h1 className="mt-6 text-4xl font-bold">Thank you!</h1>
           <Link
             href="/"
             className="mt-8 inline-block rounded-lg bg-sky-600 px-8 py-4 text-white"
@@ -82,10 +89,7 @@ export default function SuccessClient() {
     <main className="flex min-h-screen items-center justify-center">
       <div className="text-center">
         <XCircle className="mx-auto h-24 w-24 text-red-500" />
-
-        <h1 className="mt-6 text-4xl font-bold">
-          Payment Not Confirmed
-        </h1>
+        <h1 className="mt-6 text-4xl font-bold">Payment Not Confirmed</h1>
       </div>
     </main>
   );
