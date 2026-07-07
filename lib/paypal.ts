@@ -91,7 +91,9 @@ export async function captureOrder(orderId: string) {
       method: "POST",
       headers: {
         Authorization: `Bearer ${token}`,
+        "Content-Type": "application/json", // <-- AGREGA ESTA LÍNEA CUALQUIER POST A PAYPAL V2
       },
+      // Nota: No necesitas pasar un body aquí, PayPal solo requiere el header.
     }
   );
 
