@@ -1,20 +1,23 @@
 "use client";
 
 import { useEffect, useState } from "react";
+import { useSearchParams } from "next/navigation";
 import Link from "next/link";
 import { CheckCircle, XCircle, Loader2 } from "lucide-react";
 
-interface Props {
-  token?: string;
-}
+export default function SuccessClient() {
+  const searchParams = useSearchParams();
+  const token = searchParams.get("token");
 
-export default function SuccessClient({ token }: Props) {
   const [loading, setLoading] = useState(true);
   const [success, setSuccess] = useState(false);
 
   useEffect(() => {
     const capture = async () => {
+      console.log("PayPal Token:", token);
+
       if (!token) {
+        console.error("No token received from PayPal.");
         setLoading(false);
         return;
       }
@@ -32,11 +35,16 @@ export default function SuccessClient({ token }: Props) {
 
         const data = await response.json();
 
+        console.log("Capture Status:", response.status);
+        console.log("Capture Response:", data);
+
         if (response.ok && data.status === "COMPLETED") {
           setSuccess(true);
+        } else {
+          console.error("Capture failed:", data);
         }
-      } catch (err) {
-        console.error(err);
+      } catch (error) {
+        console.error("Capture Exception:", error);
       } finally {
         setLoading(false);
       }
@@ -48,7 +56,6 @@ export default function SuccessClient({ token }: Props) {
   return (
     <main className="flex min-h-screen items-center justify-center bg-gradient-to-br from-sky-100 via-white to-sky-50 px-6">
       <div className="w-full max-w-lg rounded-3xl bg-white p-10 text-center shadow-2xl">
-
         {loading && (
           <>
             <Loader2 className="mx-auto h-20 w-20 animate-spin text-sky-600" />
