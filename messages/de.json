@@ -1,0 +1,210 @@
+{
+  "Common": {
+    "HeaderWithNav": {
+      "Home": "Startseite",
+      "Blog": "Blog",
+      "AboutUs": "Über uns",
+      "ContactUs": "Kontakt",
+      "VirtualClassroom": "Virtuelles Klassenzimmer",
+      "Legal": "Rechtliches",
+      "Donate": "Spenden"
+    },
+    "Footer": {
+      "Address": {
+        "Title": "Adresse",
+        "FirstPiece": "Finca 156",
+        "SecondPiece": "Vereda La Esmeralda, Marinilla, Antioquia, Kolumbien"
+      },
+      "Copyright": "©2026 Fundación Centro Mariana de Alfabetización - Alle Rechte vorbehalten |"
+    },
+    "CustomerService": {
+      "Title": "Kundenservice",
+      "ThelephoneNumber": "+57 310 829 8815",
+      "Email": "centro.marianadealfabetizacion@gmail.com"
+    },
+    "GeneralQuestions": {
+      "Title": "Allgemeine Fragen",
+      "ThelephoneNumber": "+57 310 829 8815"
+    },
+    "CookieBanner": {
+      "text": "Wir verwenden eigene und Drittanbieter-Cookies, um Ihre Erfahrung zu verbessern. Indem Sie auf 'Akzeptieren' klicken, stimmen Sie der Verwendung aller Cookies gemäß unserer",
+      "PrivacyPolicyLink": "Cookie-Richtlinie",
+      "Agree": "Akzeptieren",
+      "Desagee": "Ablehnen"
+    }
+  },
+  "Legal": {
+    "Title": "Rechtsdokumente",
+    "Text": "Informieren Sie sich über die offizielle Dokumentation unserer Stiftung",
+    "Text2": "Wenn das Dokument nicht korrekt angezeigt wird, können Sie es direkt öffnen:",
+    "TextLink": "PDF anzeigen / herunterladen"
+  },
+  "Blog": {
+    "Title": "Blog",
+    "Subtitle": "Willkommen in unserem Blog",
+    "TextLinkLibraryPage": "Virtuelle Bibliothek",
+    "CategoryNotContent": "Wir werden bald Inhalte in dieser Kategorie veröffentlichen",
+    "buttons": {
+      "all": "Alle",
+      "activities": "Aktivitäten",
+      "news": "Nachrichten"
+    },
+    "post": {
+      "post1": {
+        "TitlePost": "Stipendienprogramm der CMA-Stiftung",
+        "TextPost": "Informieren Sie sich über die Voraussetzungen für unsere Bildungsstipendien. Die Stipendien decken bis zu 100 % der Bildungskosten für einkommensschwache Studenten mit guten akademischen Leistungen."
+      },
+      "post2": {
+        "TitlePost": "CMA Weihnachten 2023",
+        "TextPost": "Erleben Sie die emotionalsten Momente unserer Weihnachtsfeier 2023 noch einmal. Danke an alle, die Teil dieses wunderbaren Tages der Freude und Einheit waren.",
+        "Part2TextPost": "Momente, die während der Weihnachtsgeschenkübergabe festgehalten wurden. Eine Arbeit, die mit Liebe für die Gemeinschaft gemacht wurde."
+      },
+      "post3": {
+        "TitlePost": "Kostenlos schulen mit der Carlos Slim Stiftung",
+        "TextPost": "Stärken Sie Ihre Fähigkeiten! Entdecken Sie diese kostenlose Schulungsmöglichkeit, die von der Carlos Slim Stiftung angeboten wird."
+      }
+    }
+  },
+  "AboutUs": {
+    "Title": "Über FCMA",
+    "undertaking": {
+      "Title": "Mission",
+      "Text": "Wir engagieren uns für die Zukunft der Kinder in La Esmeralda durch pädagogische Maßnahmen in Sprache, Mathematik, Kunst, Sport und anderen Bereichen, wobei wir Inklusion, Schutz und kognitive Entwicklung fördern."
+    },
+    "sight": {
+      "Title": "Vision",
+      "Text": "Wir streben nationale und internationale Anerkennung als Institution an, die personalisierte Lernstrategien anwendet und positive Veränderungen in den Studiengewohnheiten und der umfassenden Entwicklung von Kindern fördert."
+    }
+  },
+  "Contact": {
+    "Title": "Kontakt",
+    "Text": "Zögern Sie nicht, uns zu kontaktieren, wenn Sie mehr über unsere Arbeit erfahren möchten, bei der wir Kinder und Jugendliche durch Bildung unterstützen. Wir beantworten gerne Ihre Fragen und erklären, wie Sie helfen können.",
+    "ContactCard": {
+      "Title": "Kontaktinformationen",
+      "Address": "Finca 156, La Esmeralda, Marinilla, Antioquia, Kolumbien",
+      "Email": "centro.marianadealfabetizacion@gmail.com",
+      "ThelephoneNumber": "+57 310 829 8815",
+      "Nit": "Steuernummer: 901048308"
+    }
+  },
+  "Home": {
+    "ValuesText": "«Glaube, Engagement, Überwindung. Bildung als Ziel zum Fortschritt.»",
+    "DescriptionCardText": "Wir sind eine gemeinnützige Stiftung, die sich der akademischen Unterstützung von benachteiligten Kindern und Jugendlichen widmet.",
+    "VideoTitle": "Unsere Geschichte, erzählt von unserer Direktorin",
+    "VideoTitle2": "Einige Aktivitäten der CMA-Stiftung",
+    "Comments": {
+      "Title": "Was die Leute über unsere Stiftung sagen",
+      "comment_1": {
+        "name": "Eliana Cardona",
+        "message": "Danke an diese wunderbare Stiftung für die Unterstützung der Bildung meines Sohnes. Er ist seit der 4. Klasse im Programm und geht jetzt in die 11. Klasse.",
+        "date": "29. November 2023",
+        "position": "1"
+      },
+      "comment_2": {
+        "name": "Diana Carolina",
+        "message": "Ich danke der CMA-Stiftung und ihrer Direktorin, Beatriz, für die Unterstützung unserer Kinder. Es ist inspirierend zu sehen, wie Menschen ohne finanzielles Interesse helfen.",
+        "date": "23. Februar 2024",
+        "position": "2"
+      },
+      "comment_3": {
+        "name": "Liliana",
+        "message": "Danke für Ihr Engagement und Ihre Hingabe. Die Arbeit, die Sie leisten, ist wirklich wunderbar. Möge Gott Sie reichlich segnen.",
+        "date": "23. Februar 2024",
+        "position": "3"
+      }
+    }
+  },
+  "Donate": {
+    "Hero": {
+      "TitlePart1": "Spenden Sie an die CMA-Stiftung",
+      "TitlePart2": "und helfen Sie uns, Bildung",
+      "TitlePart3": "zu den verletzlichsten Kindern zu bringen"
+    },
+    "DonationCard": {
+      "AlertError": "Bitte geben Sie einen gültigen Betrag ein.",
+      "AlertErrorOnlyUnitPay": "Monatliche Spenden werden bald verfügbar sein.",
+      "Title": "Wie möchten Sie beitragen?",
+      "TextMonthButton": "Monatlich",
+      "TextOneTimeButton": "Einmalig",
+      "OtherAmountInput": "Andere"
+    },
+    "DonationPhoneFrom": {
+      "AlertPrivatePolicy": "Sie müssen die Datenschutzerklärung akzeptieren.",
+      "PrivacyPolicyTermns": "Ich bestätige, dass ich die ",
+      "LinkPrivacyPolicyText": "Datenschutzerklärung und den Datenschutz gelesen und akzeptiert habe.",
+      "CallMeButtonText": "Rufen Sie mich an"
+    },
+    "MiserySection": {
+      "MiserySectionTitle": "Bildung verändert Leben.",
+      "MiserySectionTextPart1": "In der Mariana-Literacy-Center-Stiftung sind wir verpflichtet, Kindern und Jugendlichen aus benachteiligten Gemeinschaften Zugang zu hochwertiger Bildung zu ermöglichen.",
+      "MiserySectionTextPart2": "Ihre Spende hilft, Bildungsunterstützung, Schulmaterial und sichere Lernräume bereitzustellen.",
+      "MiserySectionButtonDonateText": "Jetzt spenden"
+    },
+    "ProfitsSection": {
+      "ProfitsSectionTitle": "Werden Sie monatlicher Spender und genießen Sie Vorteile",
+      "ProfitsSectionText": "Helfen Sie Kindern und erhalten Sie Zugang zu exklusiven Erlebnissen",
+      "benefit1": {
+        "Title": "Online-Veranstaltungen.",
+        "Description": "Nehmen Sie an exklusiven Veranstaltungen teil.",
+        "Image-link": "/Carrusel/Obra-teatro.png"
+      },
+      "benefit2": {
+        "Title": "Newsletter.",
+        "Description": "Erhalten Sie die monatlichen Berichte der Stiftung.",
+        "Image-link": "Carrusel/newsletters.jpg"
+      },
+      "benefit3": {
+        "Title": "Exklusiver Inhalt.",
+        "Description": "Sonderzugang zu audiovisuellem Material.",
+        "Image-link": "/Carrusel/exclusive.jpg"
+      }
+    },
+    "Faq": {
+      "Title": "Häufig gestellte Fragen",
+      "Text": "Vielen Dank, dass Sie eine Spende an die CMA-Stiftung in Betracht ziehen. Hier finden Sie Antworten auf häufige Fragen.",
+      "FirstQuestion": {
+        "question": "Wie wird meine Spende verwendet?",
+        "answer": "Jede Spende unterstützt direkt Bildungsprogramme, Schulmaterial und Lernressourcen."
+      },
+      "SecondQuestion": {
+        "question": "Ist meine Spende sicher?",
+        "answer": "Ja. Wir verwenden vertrauenswürdige Zahlungsanbieter, um Spenden sicher zu verarbeiten."
+      },
+      "ThirdQuestion": {
+        "question": "Kann ich monatlich spenden?",
+        "answer": "Absolut. Monatliche Spenden helfen uns, langfristige Bildungsprojekte zu planen."
+      },
+      "FourthQuestion": {
+        "question": "Kann ich meine monatliche Spende kündigen?",
+        "answer": "Ja. Sie können wiederkehrende Spenden jederzeit ändern oder kündigen."
+      },
+      "FivethQuestion": {
+        "question": "Erhalte ich eine Spendenbescheinigung?",
+        "answer": "Ja. Sie erhalten eine Bestätigungs-E-Mail und eine Quittung."
+      },
+      "SixthQuestion": {
+        "question": "Warum die CMA-Stiftung unterstützen?",
+        "answer": "Ihre Großzügigkeit gibt Kindern Zugang zu Bildung und besseren Möglichkeiten."
+      }
+    },
+    "ExampleSection": {
+      "Title": "Was Ihre Spende ermöglicht",
+      "TextButton": "Jetzt spenden",
+      "Example1": {
+        "title": "Gleiche Bildung",
+        "description": "Ihre Unterstützung bietet hochwertige Bildung und personalisierte akademische Betreuung.",
+        "icon": "BookOpen"
+      },
+      "Example2": {
+        "title": "Gemeinschaftsunterstützung",
+        "description": "Spenden helfen, sichere Räume für Kinder und Familien zu schaffen.",
+        "icon": "HeartHandshake"
+      },
+      "Example3": {
+        "title": "Bildungsressourcen",
+        "description": "Jeder Beitrag bietet Schulmaterial, Technologie und Lernumgebungen.",
+        "icon": "School"
+      }
+    }
+  }
+}

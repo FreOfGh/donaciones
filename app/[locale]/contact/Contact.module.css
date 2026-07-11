@@ -1,0 +1,149 @@
+.contact-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.contact-container h1 {
+  color: #27ae60;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+  border: none;
+  border-bottom: none;
+  text-decoration: none;
+  box-shadow: none;
+  outline: none;
+  background: none;
+}
+
+.title-divider {
+  height: 4px;
+  width: 120px;
+  background: linear-gradient(90deg, #a1d769, #f1c40f); 
+  margin: 0 auto 2rem auto; 
+  border-radius: 2px;
+}
+
+.contact-container h1::after,
+.contact-container h1::before {
+  content: none;
+  display: none;
+  border: none;
+  background: none ;
+  height: 0;
+}
+
+.contact-intro {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  line-height: 1.6;
+  color: #555;
+}
+
+.contact-info {
+  background-color: #f9f9f9;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+}
+
+.contact-info h2 {
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  position: relative;
+  padding-bottom: 0.5rem;
+  text-decoration: none;
+  border-bottom: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.2rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.contact-icon {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gmail-icon {
+  background: linear-gradient(
+    to right,
+    #4285F4 0%,
+    #EA4335 33%,
+    #FBBC05 66%,
+    #34A853 100%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  display: inline-block
+}
+
+.phone-icon {
+  color: #2a5bd7;
+}
+
+.default-icon {
+  color: #161616;
+}
+
+.contact-info a {
+  color: #161616;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info a:hover {
+  color: #161616;
+  text-decoration: underline;
+}
+
+.address {
+  font-style: normal;
+}
+
+.map-wrapper {
+  margin: 1rem 0 2rem;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 1rem;
+  }
+
+  .title-divider {
+    width: 100px;
+    margin-bottom: 1.5rem ;
+  }
+
+  .contact-info {
+    padding: 1.5rem;
+  }
+
+  .contact-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contact-icon {
+    margin-bottom: 0.5rem;
+  }
+}

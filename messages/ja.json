@@ -1,0 +1,210 @@
+{
+  "Common": {
+    "HeaderWithNav": {
+      "Home": "ホーム",
+      "Blog": "ブログ",
+      "AboutUs": "私たちについて",
+      "ContactUs": "お問い合わせ",
+      "VirtualClassroom": "バーチャル教室",
+      "Legal": "法的情報",
+      "Donate": "寄付する"
+    },
+    "Footer": {
+      "Address": {
+        "Title": "住所",
+        "FirstPiece": "Finca 156",
+        "SecondPiece": "Vereda La Esmeralda, Marinilla, Antioquia, コロンビア"
+      },
+      "Copyright": "©2026 Fundación Centro Mariana de Alfabetización - 全著作権所有 |"
+    },
+    "CustomerService": {
+      "Title": "カスタマーサービス",
+      "ThelephoneNumber": "+57 310 829 8815",
+      "Email": "centro.marianadealfabetizacion@gmail.com"
+    },
+    "GeneralQuestions": {
+      "Title": "一般的な質問",
+      "ThelephoneNumber": "+57 310 829 8815"
+    },
+    "CookieBanner": {
+      "text": "当社は、お客様の体験を向上させるために、自社および第三者のクッキーを使用しています。'同意'をクリックすることで、当社の",
+      "PrivacyPolicyLink": "クッキーポリシー",
+      "Agree": "同意する",
+      "Desagee": "拒否する"
+    }
+  },
+  "Legal": {
+    "Title": "法的文書",
+    "Text": "当財団の公式文書についてご確認ください",
+    "Text2": "文書が正しく表示されない場合は、直接開くことができます：",
+    "TextLink": "PDFを表示 / ダウンロード"
+  },
+  "Blog": {
+    "Title": "ブログ",
+    "Subtitle": "当ブログへようこそ",
+    "TextLinkLibraryPage": "バーチャル図書館",
+    "CategoryNotContent": "近日中にこのカテゴリにコンテンツを公開予定です",
+    "buttons": {
+      "all": "すべて",
+      "activities": "活動",
+      "news": "ニュース"
+    },
+    "post": {
+      "post1": {
+        "TitlePost": "CMA財団奨学金プログラム",
+        "TextPost": "教育奨学金の申請要件についてご確認ください。奨学金は、低所得で優れた学業成績を持つ学生の教育費用を最大100%カバーします。"
+      },
+      "post2": {
+        "TitlePost": "CMAクリスマス2023",
+        "TextPost": "2023年のクリスマス祝祭の最も感動的な瞬間をもう一度お楽しみください。喜びと団結の素晴らしい一日に参加してくださった皆様に感謝します。",
+        "Part2TextPost": "クリスマスプレゼント配布イベントで撮影された瞬間。コミュニティへの愛情を込めた活動。"
+      },
+      "post3": {
+        "TitlePost": "カルロス・スリム財団と無料で学ぶ",
+        "TextPost": "スキルを強化しましょう！カルロス・スリム財団が提供するこの無料のトレーニング機会をご覧ください。"
+      }
+    }
+  },
+  "AboutUs": {
+    "Title": "FCMAについて",
+    "undertaking": {
+      "Title": "使命",
+      "Text": "私たちは、言語、数学、芸術、体育などの教育活動を通じて、ラ・エスメラルダの子供たちの未来に貢献し、包摂性、保護、認知発展を促進することを約束します。"
+    },
+    "sight": {
+      "Title": "ビジョン",
+      "Text": "私たちは、個別化された学習戦略を適用し、学習習慣と子供の包括的な発展に前向きな変化をもたらす機関として、国内および国際的に認知されることを目指しています。"
+    }
+  },
+  "Contact": {
+    "Title": "お問い合わせ",
+    "Text": "教育を通じて子供や若者を支援する私たちの活動についてもっと知りたい場合は、お気軽にご連絡ください。ご質問にお答えし、どのように貢献できるかを説明させていただきます。",
+    "ContactCard": {
+      "Title": "連絡先情報",
+      "Address": "Finca 156, La Esmeralda, Marinilla, Antioquia, コロンビア",
+      "Email": "centro.marianadealfabetizacion@gmail.com",
+      "ThelephoneNumber": "+57 310 829 8815",
+      "Nit": "納税者番号: 901048308"
+    }
+  },
+  "Home": {
+    "ValuesText": "「信仰、献身、克服。進歩への道としての教育。」",
+    "DescriptionCardText": "私たちは、脆弱な状態にある子供や若者の学業支援に専念する非営利財団です。",
+    "VideoTitle": "理事長が語る私たちの物語",
+    "VideoTitle2": "CMA財団の活動の一部",
+    "Comments": {
+      "Title": "当財団についての声",
+      "comment_1": {
+        "name": "Eliana Cardona",
+        "message": "この素晴らしい財団に、息子の教育支援を感謝します。小学4年生からプログラムに参加し、今は高校2年生になります。",
+        "date": "2023年11月29日",
+        "position": "1"
+      },
+      "comment_2": {
+        "name": "Diana Carolina",
+        "message": "CMA財団と理事長のベアトリスに、私たちの子供たちへの支援を感謝します。金銭的な利益を求めずに助ける人々を見るのは感動的です。",
+        "date": "2024年2月23日",
+        "position": "2"
+      },
+      "comment_3": {
+        "name": "Liliana",
+        "message": "あなた方の献身と努力に感謝します。行われている活動は本当に素晴らしいです。神様が豊かに祝福してください。",
+        "date": "2024年2月23日",
+        "position": "3"
+      }
+    }
+  },
+  "Donate": {
+    "Hero": {
+      "TitlePart1": "CMA財団に寄付して",
+      "TitlePart2": "教育を最も脆弱な子供たちに",
+      "TitlePart3": "届けるのを手伝ってください"
+    },
+    "DonationCard": {
+      "AlertError": "有効な金額を入力してください。",
+      "AlertErrorOnlyUnitPay": "月額寄付は近日中に利用可能になります。",
+      "Title": "どのように貢献したいですか？",
+      "TextMonthButton": "毎月",
+      "TextOneTimeButton": "一度きり",
+      "OtherAmountInput": "その他"
+    },
+    "DonationPhoneFrom": {
+      "AlertPrivatePolicy": "プライバシーポリシーに同意する必要があります。",
+      "PrivacyPolicyTermns": "私は",
+      "LinkPrivacyPolicyText": "プライバシー通知およびデータ保護方針を読み、同意したことを確認します。",
+      "CallMeButtonText": "電話をください"
+    },
+    "MiserySection": {
+      "MiserySectionTitle": "教育は人生を変えます。",
+      "MiserySectionTextPart1": "マリアナ識字センター財団では、脆弱なコミュニティの子供や若者に質の高い教育へのアクセスを提供することに尽力しています。",
+      "MiserySectionTextPart2": "あなたの寄付は、教育支援、学用品、安全な学習環境の提供に役立ちます。",
+      "MiserySectionButtonDonateText": "今すぐ寄付する"
+    },
+    "ProfitsSection": {
+      "ProfitsSectionTitle": "月額寄付者になって特典を受け取る",
+      "ProfitsSectionText": "子供たちを助け、独占的な体験にアクセスする",
+      "benefit1": {
+        "Title": "オンラインイベント。",
+        "Description": "独占的なイベントに参加する。",
+        "Image-link": "/Carrusel/Obra-teatro.png"
+      },
+      "benefit2": {
+        "Title": "ニュースレター。",
+        "Description": "財団の月次報告書を受け取る。",
+        "Image-link": "Carrusel/newsletters.jpg"
+      },
+      "benefit3": {
+        "Title": "独占コンテンツ。",
+        "Description": "特別な視聴資料へのアクセス。",
+        "Image-link": "/Carrusel/exclusive.jpg"
+      }
+    },
+    "Faq": {
+      "Title": "よくある質問",
+      "Text": "CMA財団への寄付をご検討いただき、ありがとうございます。以下に、教育ミッションを支援する方法に関するよくある質問への回答をご紹介します。",
+      "FirstQuestion": {
+        "question": "私の寄付はどのように使われますか？",
+        "answer": "すべての寄付は、教育プログラム、学用品、学習リソース、およびCMA財団が支援する子供や若者に利益をもたらすコミュニティイニシアチブを直接支援します。"
+      },
+      "SecondQuestion": {
+        "question": "私の寄付は安全ですか？",
+        "answer": "はい。信頼できる支払いプロバイダーを使用して、すべての寄付が安全に処理され、個人情報が保護されることを保証しています。"
+      },
+      "ThirdQuestion": {
+        "question": "月額寄付はできますか？",
+        "answer": "もちろんです。月額寄付は、長期的な教育プロジェクトを計画し、コミュニティに持続的な影響を与えるための安定した支援を提供します。"
+      },
+      "FourthQuestion": {
+        "question": "月額寄付をキャンセルできますか？",
+        "answer": "はい。定期的な寄付は、いつでもチームに連絡するか、支払いプロバイダーを通じて変更またはキャンセルできます。"
+      },
+      "FivethQuestion": {
+        "question": "寄付の領収書は受け取れますか？",
+        "answer": "はい。寄付が完了すると、確認メールと領収書が記録用に送信されます。"
+      },
+      "SixthQuestion": {
+        "question": "なぜCMA財団を支援すべきですか？",
+        "answer": "あなたの寛大さは、子供や若者に教育へのアクセス、学業支援、学用品、そしてより良い未来を築く機会を提供します。"
+      }
+    },
+    "ExampleSection": {
+      "Title": "あなたの寄付が可能にすること",
+      "TextButton": "今すぐ寄付する",
+      "Example1": {
+        "title": "公平な教育",
+        "description": "あなたの支援は、子供や若者に質の高い教育、個別の学業指導、そしてより良い未来を築くのに役立つ学習機会へのアクセスを提供します。",
+        "icon": "BookOpen"
+      },
+      "Example2": {
+        "title": "コミュニティ支援",
+        "description": "寄付は、子供や家族が指導、感情的支援、そしてコミュニティとして一緒に成長する機会を受け取る安全で温かい空間を作るのに役立ちます。",
+        "icon": "HeartHandshake"
+      },
+      "Example3": {
+        "title": "教育リソース",
+        "description": "すべての貢献は、学用品、教育リソース、技術、そして学生が最大の可能性を発揮するよう励ます学習環境の提供に役立ちます。",
+        "icon": "School"
+      }
+    }
+  }
+}

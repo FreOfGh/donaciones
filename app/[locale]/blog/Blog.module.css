@@ -1,0 +1,284 @@
+.blog-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
+.blog-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.blog-title {
+  color: #27ae60;
+  font-size: 2.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  text-decoration: none;
+  border-bottom: none;
+  outline: none;
+  box-shadow: none;
+}
+
+.blog-subtitle {
+  color: #4a3a5a;
+  font-size: 1.2rem;
+  max-width: 600px;
+  margin: 0 auto 1.5rem;
+  line-height: 1.6;
+}
+
+.title-divider {
+  height: 4px;
+  width: 120px;
+  background: linear-gradient(90deg, #a1d769, #f1c40f);
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.library-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 1rem 1.5rem 0 0;
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #27ae60;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.library-link:hover {
+  color: #1e8f50;
+}
+
+.library-icon {
+  font-size: 1.4rem;
+}
+
+.blog-filters {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.blog-filters::-webkit-scrollbar {
+  display: none;
+}
+
+.filter-button {
+  flex: 0 0 auto;
+  position: relative;
+  background: white;
+  border: 1px solid #f1c40f;
+  color: black;
+  padding: 0.5rem 1rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  min-width: 160px;
+  text-align: center;
+  height: 40px;
+}
+
+.filter-button:hover {
+  background: #f5f1ff;
+}
+
+.filter-button.active {
+  background: #27ae60;
+  color: white;
+  border-color: #5a2d82;
+}
+
+.category-text,
+.category-icon {
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: opacity 0.3s ease;
+}
+
+.category-text {
+  opacity: 1;
+}
+
+.category-icon {
+  opacity: 0;
+  font-size: 1.2rem;
+}
+
+.filter-button:hover .category-text {
+  opacity: 0;
+}
+
+.filter-button:hover .category-icon {
+  opacity: 1;
+}
+
+.blog-content {
+  margin-top: 1.5rem;
+}
+
+.blog-post {
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.blog-post:hover {
+  transform: translateY(-3px);
+}
+
+.image-container {
+  position: relative;
+  height: 250px;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.image-container.expanded {
+  height: 350px;
+}
+
+.blog-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.image-container:hover .blog-image {
+  transform: scale(1.03);
+}
+
+.post-details {
+  padding: 1.5rem;
+}
+
+.post-title {
+  color: black;
+  font-size: 1.4rem;
+  margin-bottom: 0.8rem;
+  font-weight: 600;
+}
+
+.post-description {
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 2rem;
+  color: #666;
+  font-style: italic;
+}
+
+.fullscreen-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  cursor: pointer;
+}
+
+.fullscreen-image {
+  max-width: 90%;
+  max-height: 90%;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  .blog-container {
+    padding: 1.5rem;
+  }
+
+  .blog-title {
+    font-size: 1.6rem;
+  }
+
+  .blog-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .image-container {
+    height: 200px;
+  }
+
+  .image-container.expanded {
+    height: 250px;
+  }
+
+  .blog-filters {
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .filter-button {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+    flex: 1 1 100%;
+    max-width: 100%;
+    width: auto;
+    border-radius: 8px; 
+    text-align: center;
+  }
+
+  .category-text {
+    display: flex;       
+    justify-content: center;
+    align-items: center;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    opacity: 1 !important;
+    padding: 0 0.3rem;
+  }
+
+  .category-icon {
+    display: none !important;
+  }
+
+  .post-title {
+    font-size: 1rem;
+  }
+
+  .library-link {
+    font-size: 0.9rem;
+    margin-top: 0.8rem;
+    margin-right: 1rem;
+  }
+
+  .library-icon {
+    font-size: 1.4rem;
+  }
+
+  .library-text {
+    display: none;
+  }
+}

@@ -1,0 +1,230 @@
+{
+    "Common": {
+        "HeaderWithNav": {
+            "Home": "Inicio",
+            "Blog": "Blog",
+            "AboutUs": "Quiénes somos",
+            "ContactUs": "Contacto",
+            "VirtualClassroom": "Aula virtual",
+            "Legal": "Legal",
+            "Donate": "Donar"
+        },
+        "Footer": {
+            "Address": {
+                "Title": "Direccion",
+                "FirstPiece": "Finca 156",
+                "SecondPiece": "Vereda La Esmeralda, Marinilla, Antioquia, Colombia"
+            },
+            "Copyright": "©2026 Fundación Centro Mariana de Alfabetización - All rights reserved |"
+        },
+        "CustomerService": {
+            "Title": "Servicio al cliente",
+            "ThelephoneNumber": "+57 310 829 8815",
+            "Email": "centro.marianadealfabetizacion@gmail.com"
+        },
+        "GeneralQuestions": {
+            "Title": "Preguntas generales",
+            "ThelephoneNumber": "+57 310 829 8815"
+        },
+        "CookieBanner": {
+            "text": "Usamos cookies propias y de terceros para mejorar tu experiencia. Al hacer clic en 'Aceptar', consientes el uso de todas las cookies según nuestra",
+            "PrivacyPolicyLink": "Política de Cookies",
+            "Agree": "Aceptar",
+            "Desagee": "Rechazar"
+        }
+    },
+    "Legal": {
+        "Title": "Documentos Legales",
+        "Text": "Conoce la documentación oficial de nuestra fundación",
+        "Text2": "Si el documento no se muestra correctamente, puedes abrirlo directamente:",
+        "TextLink": "Ver / Descargar documento PDF"
+    },
+    "Blog": {
+        "Title": "Blog",
+        "Subtitle": "Bienvenido a nuestro blog",
+        "TextLinkLibraryPage": "Biblioteca Virtual",
+        "CategoryNotContent": "Próximamente publicaremos contenido en esta categoría",
+        "buttons": {
+            "all": "Todos",
+            "activities": "Actividades",
+            "news": "Noticias"
+        },
+        "post": {
+            "post1": {
+                "TitlePost": "Programa de becas fundación CMA",
+                "TextPost": "Conoce los requisitos para aplicar a nuestras becas educativas. Las becas cubren hasta el 100% de los costos educativos para estudiantes de bajos recursos con buen desempeño académico."
+            },
+            "post2": {
+                "TitlePost": "Navidad CMA 2023",
+                "TextPost": "Revive los momentos más emotivos de nuestra celebración de Navidad 2023. Gracias a todos los que hicieron parte de esta hermosa jornada de alegría y unión.",
+                "Part2TextPost": "Momentos capturados durante la jornada de entrega de regalos en Navidad. Una labor hecha con amor por la comunidad."
+            },
+            "post3": {
+                "TitlePost": "Capacítate gratis con Fundación Carlos Slim",
+                "TextPost": "¡Anímate a fortalecer tus habilidades! Explora esta oportunidad gratuita de formación ofrecida por la Fundación Carlos Slim. En el póster encontrarás una guía para comenzar."
+            }
+        }
+    },
+    "AboutUs": {
+        "Title": "Acerca de FCMA",
+        "undertaking": {
+            "Title": "Misión",
+            "Text": "Comprometernos con el futuro de los niños y niñas de la vereda La Esmeralda, a través de acciones pedagógicas en procesos educativos como lengua, matemáticas, artística, educación física, entre otros; buscando la inclusión, brindándoles protección, mecanismos de prevención y aceleración de sus procesos cognitivos."
+        },
+        "sight": {
+            "Title": "Visión",
+            "Text": "Buscamos ser reconocidos a nivel nacional e internacional, como una institución que cuenta con estrategias aplicadas como iniciativa personalizada de estudiante a estudiante, generando cambios y transformaciones en sus hábitos de estudio y estimulando procesos educativos que ayudan al desarrollo y al crecimiento de los niños y niñas en todas sus dimensiones (corporal, afectiva, cognitiva, social, ética, etc.)."
+        }
+    },
+    "Contact": {
+        "Title": "Contactanos",
+        "Text": "No dudes en ponerte en contacto con nosotros si deseas conocer más sobre nuestro trabajo apoyando académicamente a niños y jóvenes en situación de vulnerabilidad. Estamos disponibles para responder tus preguntas, contarte cómo puedes ser parte de esta causa solidaria, o brindarte información si conoces a un niño o joven que pueda beneficiarse de nuestro apoyo académico.",
+        "ContactCard": {
+            "Title": "Información de contacto",
+            "Address": "Finca 156 Vereda La Esmeralda, Marinilla, Antioquia, Colombia",
+            "Email": "centro.marianadealfabetizacion@gmail.com",
+            "ThelephoneNumber": "+57 310 829 8815",
+            "Nit": "Nit: 901048308"
+        }
+    },
+    "Home": {
+        "ValuesText": "«Fe, Compromiso, Superación. La Educación como meta hacia el Progreso.»",
+        "DescriptionCardText": "Somos una fundación sin ánimo de lucro, dedicada a apoyar académicamente a niños y jóvenes de la comunidad que se encuentren en estado de vulnerabilidad.",
+        "VideoTitle": "Nuestra historia contada por nuestra directora",
+        "VideoTitle2": "Algunas actividades de la fundación CMA",
+        "Comments": {
+            "Title": "Algunas opiniones sobre la fundación",
+            "comment_1": {
+                "name": "Eliana Cardona",
+                "message": "Gracias a esta hermosa fundación por el apoyo académico para mi hijo. Lo tengo en el programa desde 4° de primaria y ahora va para 11° grado.",
+                "date": "29 de noviembre, 2023",
+                "position": "1"
+            },
+            "comment_2": {
+                "name": "Diana Carolina",
+                "message": "Agradezco a la Fundación CMA y a su directora, Beatriz, por el apoyo que brindan a nuestros niños. Es inspirador ver personas que ayudan sin interés económico.",
+                "date": "23 de febrero, 2024",
+                "position": "2"
+            },
+            "comment_3": {
+                "name": "Liliana",
+                "message": "Gracias por su entrega y dedicación. La labor que realizan es verdaderamente hermosa. Que Dios les devuelva el doble de lo que nos dan",
+                "date": "23 de febrero, 2024",
+                "position": "3"
+            }
+        }
+    },
+    "Donate": {
+        "Hero": {
+            "TitlePart1": "Dona a la fundación cma",
+            "TitlePart2": "y ayudanos a llevar educación",
+            "TitlePart3": "a los niños más vulnerables",
+            "LogoAlt": "Logo de la fundación Centro Mariana de Alfabetización.",
+            "ImageAlt": "Foto niños miembros de la fundación"
+        },
+        "DonationCard": {
+            
+            "AlertError": "Porfavor ingrese un monto valido.",
+            "AlertErrorOnlyUnitPay": "Las donaicones mensuales estaran disponibles pronto.",
+            "Title": "¿Cómo te gustaría colaborar?",
+            "TextMonthButton": "Mensual",
+            "TextOneTimeButton":"Una sola vez",
+            "OtherAmountInput":"Otro",
+            "TextDonateButton": "Donar",
+            "Redirecting":"Redirigiendo a la pasareña de donaciones."
+        },
+        "DonationPhoneFrom": {
+            "AlertPrivatePolicy": "Debes aceptar la política de privacidad.",
+            "PrivacyPolicyTermns": "Confirmo que he leido y acpetado la ",
+            "LinkPrivacyPolicyText": "privacy notice and data protection policy.",
+            "CallMeButtonText": "Llamame",
+            "Title":"Si prefieres te llamamos",
+            "FullName":"Nombre completo",
+            "Sending":"Enviando correo",
+            "SuccessMessage":"Información enviada correctamente.",
+            "ErrorMessage":"Error al la información."
+        },
+        "MiserySection": {
+            "MiserySectionTitle": "La educación cambia vidas.",
+            "MiserySectionTextPart1": "En la fundación Centro Mariana de Alfabetización, estamos comprometidos a brindar a niños y jóvenes de comunidades vulnerables acceso a una educación de calidad, dotándolos de los conocimientos, la confianza y las oportunidades que necesitan para construir un futuro más prometedor.",
+            "MiserySectionTextPart2": "Su donación ayuda a proporcionar apoyo educativo, útiles escolares, recursos de aprendizaje y espacios seguros donde cada niño puede crecer, aprender y alcanzar su máximo potencial.",
+            "MiserySectionButtonDonateText": "Donar ahora",
+            "ImageAlt":"Niños de la fundación en grduación"
+        },
+        "ProfitsSection": {
+            "ProfitsSectionTitle": "Conviertete en donante mensual y obten beneficios",
+            "ProfitsSectionText": "Ayuda los niños y accede a experiencias exclusivas",
+            "benefit1": {
+                "Title": "Eventos online.",
+                "Description": "Participa en eventos exclusivos.",
+                "Image-link": "/Carrusel/Obra-teatro.png"
+            },
+            "benefit2": {
+                "Title": "Periodicos.",
+                "Description": "Tendrás acceso a los reportes mensuales de la fundación.",
+                "Image-link": "Carrusel/newsletters.jpg"
+            },
+            "benefit3": {
+                "Title": "Contenido exclusivo.",
+                "Description": "Acceso especial a material audiovisual.",
+                "Image-link": "/Carrusel/exclusive.jpg"
+            }
+        },
+        "Faq": {
+            "Title": "Preguntas frecuentes",
+            "Text": "Gracias por considerar hacer una donación a la Fundación CMA. Aquí encontrará respuestas a algunas de las preguntas más frecuentes sobre cómo apoyar nuestra misión educativa.",
+            "FirstQuestion": {
+                "question": "¿Cómo se utilizará mi donación?",
+                "answer": "Cada donación apoya directamente los programas educativos, los útiles escolares, los recursos de aprendizaje y las iniciativas comunitarias que benefician a los niños y jóvenes atendidos por la Fundación CMA."
+            },
+            "SecondQuestion": {
+                "question": "¿Mi donación es segura?",
+                "answer": "Sí. Utilizamos proveedores de pago de confianza para garantizar que cada donación se procese de forma segura y que su información personal permanezca protegida."
+            },
+            "ThirdQuestion": {
+                "question": "¿Puedo hacer una donación mensual?",
+                "answer": "Por supuesto. Las donaciones mensuales nos brindan un apoyo constante que nos permite planificar proyectos educativos a largo plazo y generar un impacto duradero en nuestra comunidad."
+            },
+            "FourthQuestion": {
+                "question": "¿Puedo cancelar mi donación mensual?",
+                "answer": "Sí. Puedes modificar o cancelar tu donación recurrente en cualquier momento poniéndote en contacto con nuestro equipo o a través de tu proveedor de pagos."
+            },
+            "FivethQuestion": {
+                "question": "¿Recibiré un recibo de donación?",
+                "answer": "Sí. Una vez completada su donación, recibirá un correo electrónico de confirmación y un recibo para sus registros."
+            },
+            "SixthQuestion": {
+                "question": "¿Por qué apoyar a la Fundación CMA?",
+                "answer": "Su generosidad ayuda a brindar a niños y jóvenes acceso a la educación, apoyo académico, material escolar y oportunidades que les permiten construir un futuro mejor."
+            }
+        },
+        "ExampleSection":{
+            "Title":"Lo que tu donación hace posible",
+            "TextButton":"Donar ahora",
+            "Example1": {
+                "title": "Educación equitatica",
+                "description": "Su apoyo proporciona a los niños y jóvenes acceso a una educación de calidad, orientación académica personalizada y oportunidades de aprendizaje que les ayudan a construir un futuro mejor.",
+                "icon": "BookOpen"
+            },
+            "Example2":{
+                "title":"Soporte a la comunidad",
+                "description": "Las donaciones nos permiten crear espacios seguros y acogedores donde los niños y las familias reciben orientación, apoyo emocional y oportunidades para crecer juntos como comunidad.",
+                "icon": "HeartHandshake"
+            },
+            "Example3": {
+                "title": "Recursos educativos",
+                "description": "Cada contribución ayuda a proporcionar material escolar, recursos educativos, tecnología y entornos de aprendizaje que inspiren a los estudiantes a alcanzar su máximo potencial.",
+                "icon": "School"
+            }
+        },
+        "Mail":{
+            "Title":"¡Muchas Gracias! ❤️",
+            "Title2":"Donación Recibida",
+            "Text1":"Hola",
+            "Text2":"Queremos agradecerte profundamente tu generosa donación de ",
+            "Text3":"Tu apoyo es fundamental para que podamos seguir llevando oportunidades educativas, útiles escolares y esperanza a niños y jóvenes que lo necesitan.",
+            "Text4":"Cada contribución hace una diferencia real en el territorio. Gracias por creer en nuestra misión y transformar vidas con nosotros.",
+            "Text5":"Este correo confirma que tu transacción fue procesada y capturada con éxito."
+        }
+    }
+}

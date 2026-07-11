@@ -1,0 +1,210 @@
+{
+  "Common": {
+    "HeaderWithNav": {
+      "Home": "Home",
+      "Blog": "Blog",
+      "AboutUs": "About Us",
+      "ContactUs": "Contact",
+      "VirtualClassroom": "Virtual Classroom",
+      "Legal": "Legal",
+      "Donate": "Donate"
+    },
+    "Footer": {
+      "Address": {
+        "Title": "Address",
+        "FirstPiece": "Finca 156",
+        "SecondPiece": "Vereda La Esmeralda, Marinilla, Antioquia, Colombia"
+      },
+      "Copyright": "©2026 Mariana Literacy Center Foundation - All rights reserved |"
+    },
+    "CustomerService": {
+      "Title": "Customer Service",
+      "ThelephoneNumber": "+57 310 829 8815",
+      "Email": "centro.marianadealfabetizacion@gmail.com"
+    },
+    "GeneralQuestions": {
+      "Title": "General Questions",
+      "ThelephoneNumber": "+57 310 829 8815"
+    },
+    "CookieBanner": {
+      "text": "We use our own and third-party cookies to improve your experience. By clicking 'Accept', you consent to the use of all cookies according to our",
+      "PrivacyPolicyLink": "Cookie Policy",
+      "Agree": "Accept",
+      "Desagee": "Decline"
+    }
+  },
+  "Legal": {
+    "Title": "Legal Documents",
+    "Text": "Learn about the official documentation of our foundation",
+    "Text2": "If the document does not display correctly, you can open it directly:",
+    "TextLink": "View / Download PDF"
+  },
+  "Blog": {
+    "Title": "Blog",
+    "Subtitle": "Welcome to our blog",
+    "TextLinkLibraryPage": "Virtual Library",
+    "CategoryNotContent": "We will publish content in this category soon",
+    "buttons": {
+      "all": "All",
+      "activities": "Activities",
+      "news": "News"
+    },
+    "post": {
+      "post1": {
+        "TitlePost": "CMA Foundation Scholarship Program",
+        "TextPost": "Learn about the requirements to apply for our educational scholarships. Scholarships cover up to 100% of educational costs for low-income students with strong academic performance."
+      },
+      "post2": {
+        "TitlePost": "CMA Christmas 2023",
+        "TextPost": "Relive the most memorable moments of our 2023 Christmas celebration. Thank you to everyone who took part in this wonderful day of joy and unity.",
+        "Part2TextPost": "Moments captured during the Christmas gift-giving event. A labor of love for the community."
+      },
+      "post3": {
+        "TitlePost": "Train for Free with Carlos Slim Foundation",
+        "TextPost": "Strengthen your skills! Explore this free training opportunity offered by the Carlos Slim Foundation."
+      }
+    }
+  },
+  "AboutUs": {
+    "Title": "About FCMA",
+    "undertaking": {
+      "Title": "Mission",
+      "Text": "We are committed to the future of children in La Esmeralda through educational actions in language, mathematics, arts, physical education and other areas, promoting inclusion, protection and cognitive development."
+    },
+    "sight": {
+      "Title": "Vision",
+      "Text": "We seek national and international recognition as an institution that applies personalized learning strategies, fostering positive changes in study habits and comprehensive child development."
+    }
+  },
+  "Contact": {
+    "Title": "Contact Us",
+    "Text": "Feel free to contact us if you would like to learn more about our work supporting children and young people through education. We are happy to answer your questions and explain how you can help.",
+    "ContactCard": {
+      "Title": "Contact Information",
+      "Address": "Farm 156, La Esmeralda, Marinilla, Antioquia, Colombia",
+      "Email": "centro.marianadealfabetizacion@gmail.com",
+      "ThelephoneNumber": "+57 310 829 8815",
+      "Nit": "Tax ID: 901048308"
+    }
+  },
+  "Home": {
+    "ValuesText": "“Faith, Commitment, Growth. Education as the Path to Progress.”",
+    "DescriptionCardText": "We are a non-profit foundation dedicated to providing academic support to vulnerable children and young people.",
+    "VideoTitle": "Our story told by our director",
+    "VideoTitle2": "Some activities of the CMA Foundation",
+    "Comments": {
+      "Title": "What people say about our foundation",
+      "comment_1": {
+        "name": "Eliana Cardona",
+        "message": "Thank you to this wonderful foundation for supporting my son's education. He joined in 4th grade and is now entering 11th grade.",
+        "date": "November 29, 2023",
+        "position": "1"
+      },
+      "comment_2": {
+        "name": "Diana Carolina",
+        "message": "I thank the CMA Foundation and its director, Beatriz, for supporting our children. It is inspiring to see people helping without expecting financial gain.",
+        "date": "February 23, 2024",
+        "position": "2"
+      },
+      "comment_3": {
+        "name": "Liliana",
+        "message": "Thank you for your dedication. Your work is truly wonderful. May God bless you abundantly.",
+        "date": "February 23, 2024",
+        "position": "3"
+      }
+    }
+  },
+  "Donate": {
+    "Hero": {
+      "TitlePart1": "Donate to the CMA Foundation",
+      "TitlePart2": "and help us bring education",
+      "TitlePart3": "to the most vulnerable children"
+    },
+    "DonationCard": {
+      "AlertError": "Please enter a valid amount.",
+      "AlertErrorOnlyUnitPay": "Monthly donations will be available soon.",
+      "Title": "How would you like to contribute?",
+      "TextMonthButton": "Monthly",
+      "TextOneTimeButton": "One Time",
+      "OtherAmountInput": "Other"
+    },
+    "DonationPhoneFrom": {
+      "AlertPrivatePolicy": "You must accept the privacy policy.",
+      "PrivacyPolicyTermns": "I confirm that I have read and accepted the ",
+      "LinkPrivacyPolicyText": "privacy notice and data protection policy.",
+      "CallMeButtonText": "Call me"
+    },
+    "MiserySection": {
+      "MiserySectionTitle": "Education changes lives.",
+      "MiserySectionTextPart1": "At the Mariana Literacy Center Foundation, we are committed to providing children and young people from vulnerable communities with access to quality education.",
+      "MiserySectionTextPart2": "Your donation helps provide educational support, school supplies and safe learning spaces.",
+      "MiserySectionButtonDonateText": "Donate now"
+    },
+    "ProfitsSection": {
+      "ProfitsSectionTitle": "Become a monthly donor and enjoy benefits",
+      "ProfitsSectionText": "Help children and access exclusive experiences",
+      "benefit1": {
+        "Title": "Online events.",
+        "Description": "Join exclusive events.",
+        "Image-link": "/Carrusel/Obra-teatro.png"
+      },
+      "benefit2": {
+        "Title": "Newsletters.",
+        "Description": "Receive the foundation's monthly reports.",
+        "Image-link": "Carrusel/newsletters.jpg"
+      },
+      "benefit3": {
+        "Title": "Exclusive content.",
+        "Description": "Special access to audiovisual material.",
+        "Image-link": "/Carrusel/exclusive.jpg"
+      }
+    },
+    "Faq": {
+      "Title": "Frequently Asked Questions",
+      "Text": "Thank you for considering a donation to the CMA Foundation. Here are answers to common questions.",
+      "FirstQuestion": {
+        "question": "How will my donation be used?",
+        "answer": "Every donation directly supports educational programs, school supplies and learning resources."
+      },
+      "SecondQuestion": {
+        "question": "Is my donation secure?",
+        "answer": "Yes. We use trusted payment providers to process donations securely."
+      },
+      "ThirdQuestion": {
+        "question": "Can I make a monthly donation?",
+        "answer": "Absolutely. Monthly donations help us plan long-term educational projects."
+      },
+      "FourthQuestion": {
+        "question": "Can I cancel my monthly donation?",
+        "answer": "Yes. You can modify or cancel recurring donations at any time."
+      },
+      "FivethQuestion": {
+        "question": "Will I receive a donation receipt?",
+        "answer": "Yes. You will receive a confirmation email and receipt."
+      },
+      "SixthQuestion": {
+        "question": "Why support the CMA Foundation?",
+        "answer": "Your generosity gives children access to education and better opportunities."
+      }
+    },
+    "ExampleSection": {
+      "Title": "What your donation makes possible",
+      "TextButton": "Donate now",
+      "Example1": {
+        "title": "Equal Education",
+        "description": "Your support provides quality education and personalized academic guidance.",
+        "icon": "BookOpen"
+      },
+      "Example2": {
+        "title": "Community Support",
+        "description": "Donations help create safe spaces for children and families.",
+        "icon": "HeartHandshake"
+      },
+      "Example3": {
+        "title": "Educational Resources",
+        "description": "Every contribution provides school supplies, technology and learning environments.",
+        "icon": "School"
+      }
+    }
+  }
+}
