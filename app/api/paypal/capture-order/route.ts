@@ -52,6 +52,15 @@ export async function POST(req: NextRequest) {
           donorName: result.payer?.name?.given_name,
           amount: capture?.amount?.value ?? "0.00",
           currency: capture?.amount?.currency_code ?? "USD",
+          texts: {
+            title: "Gracias por tu donación",
+            greeting: "Gracias por tu apoyo",
+            thanksText: "Hemos recibido tu contribución y estamos muy agradecidos.",
+            supportText: "Tu aporte nos ayuda a seguir con nuestra misión.",
+            badgeTitle: "Donación recibida",
+            footerText: "Gracias por tu solidaridad.",
+            confirmationText: "Tu donación ha sido procesada correctamente.",
+          },
         });
       } catch (emailError) {
         console.error("Error sending email:", emailError);
