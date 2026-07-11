@@ -18,7 +18,7 @@ export async function POST(req: Request) {
 
   const { data, error } = await resend.emails.send({
     from: "Fundación CMA <noreply@mail.fundacioncma.org.co>",
-    to: [process.env.ADMIN_EMAIL_SANDBOX || ""],
+    to: [process.env.ADMIN_LIVE_EMAIL || ""],
     subject: "Nueva solicitud de llamada",
     react: React.createElement(CallRequestEmail, { fullName, phone }),
   });
