@@ -1,3 +1,4 @@
+// app/api/paypal/capture/route.ts
 import { NextRequest, NextResponse } from "next/server";
 import { captureOrder } from "@/lib/paypal";
 import { sendDonationThankYouEmail } from "@/lib/email";
@@ -6,75 +7,107 @@ export async function POST(req: NextRequest) {
   try {
     const { orderId } = await req.json();
 
-    if (!orderId) {
-      return NextResponse.json({ error: "Order ID is required." }, { status: 400 });
+    if (!orderId || typeof orderId !== "string") {
+      return NextResponse.json(
+        { error: "Order ID is required and must be a string." },
+        { status: 400 }
+      );
     }
 
     let result;
+    let wasAlreadyCaptured = false;
+
     try {
-      // Intentamos capturar normalmente
       result = await captureOrder(orderId);
     } catch (captureError: any) {
-      // Analizamos si el error es porque ya fue capturada previamente
-      console.warn("Error capturando o re-intento detectado:", captureError.message);
-      
+      console.warn("PayPal capture error:", captureError?.message || captureError);
+
+      const errorMessage = captureError?.message || "";
+      let parsed: any;
+
       try {
-        const errorData = JSON.parse(captureError.message);
-        
-        // PayPal suele responder con un issue 'ORDER_ALREADY_CAPTURED'
-        const isAlreadyCaptured = errorData.details?.some(
+        parsed = JSON.parse(errorMessage);
+      } catch {
+        parsed = null;
+      }
+
+      const isAlreadyCaptured =
+        parsed?.details?.some(
           (detail: any) => detail.issue === "ORDER_ALREADY_CAPTURED"
-        );
+        ) || errorMessage.includes("ORDER_ALREADY_CAPTURED");
 
-        if (isAlreadyCaptured) {
-          // Si ya se capturó, retornamos un estado simulando éxito para no romper el flujo del cliente
-          return NextResponse.json({
-            status: "COMPLETED",
-            message: "Order was already successfully captured previously.",
-            // Puedes mapear aquí más datos simulados si tu frontend los necesita obligatoriamente
-          });
-        }
-      } catch (parseError) {
-        // Si el mensaje de error no era un JSON válido, seguimos la ejecución para que caiga en el 500 original
-      }
-
-      // Si no fue por 'ORDER_ALREADY_CAPTURED', lanzamos el error original hacia el catch principal
-      throw captureError;
-    }
-
-    // Si el pago fue exitoso en esta primera ejecución, enviar el correo
-    if (result.status === "COMPLETED") {
-      try {
-        const capture = result.purchase_units?.[0]?.payments?.captures?.[0];
-
-        await sendDonationThankYouEmail({
-          to: result.payer?.email_address,
-          donorName: result.payer?.name?.given_name,
-          amount: capture?.amount?.value ?? "0.00",
-          currency: capture?.amount?.currency_code ?? "USD",
-          texts: {
-            title: "Gracias por tu donación",
-            greeting: "Gracias por tu apoyo",
-            thanksText: "Hemos recibido tu contribución y estamos muy agradecidos.",
-            supportText: "Tu aporte nos ayuda a seguir con nuestra misión.",
-            badgeTitle: "Donación recibida",
-            footerText: "Gracias por tu solidaridad.",
-            confirmationText: "Tu donación ha sido procesada correctamente.",
+      if (isAlreadyCaptured) {
+        wasAlreadyCaptured = true;
+        result = {
+          status: "COMPLETED",
+          id: orderId,
+          payer: {
+            email_address: "",
+            name: { given_name: "Donor" },
           },
-        });
-      } catch (emailError) {
-        console.error("Error sending email:", emailError);
-        // No interrumpimos la respuesta si el pago ya fue exitoso.
+          purchase_units: [
+            {
+              payments: {
+                captures: [
+                  {
+                    amount: { value: "0.00", currency_code: "USD" },
+                  },
+                ],
+              },
+            },
+          ],
+        };
+      } else {
+        throw captureError;
       }
     }
 
-    return NextResponse.json(result);
+    if (result?.status === "COMPLETED") {
+      const capture = result.purchase_units?.[0]?.payments?.captures?.[0];
+      const amount = capture?.amount?.value ?? "0.00";
+      const currency = capture?.amount?.currency_code ?? "USD";
+      const emailTo = result.payer?.email_address;
+      const donorName = result.payer?.name?.given_name || "Donor";
 
-  } catch (error) {
-    console.error("Fatal backend check:", error);
+      if (emailTo) {
+        try {
+          await sendDonationThankYouEmail({
+            to: emailTo,
+            donorName,
+            amount,
+            currency,
+            // Provide minimal required texts property for DonationEmailProps
+            texts: {
+              title: `Gracias por tu donación, ${donorName}`,
+              greeting: `Hola ${donorName},`,
+              thanksText: `Gracias por tu donación de ${amount} ${currency}. Tu apoyo es muy valioso para nosotros.`,
+              supportText: "Si necesitas ayuda, por favor contáctanos.",
+              badgeTitle: "Donación recibida",
+              confirmationText: "Tu contribución ha sido procesada con éxito.",
+              footerText: "Fundación",
+            },
+          });
+        } catch (emailError) {
+          console.error("Error sending thank-you email:", emailError);
+        }
+      } else {
+        console.warn("No donor email available. Skipping thank-you email.");
+      }
+    }
+
+    return NextResponse.json({
+      status: result.status,
+      orderId: result.id,
+      wasAlreadyCaptured,
+    });
+  } catch (error: any) {
+    console.error("Fatal error in PayPal capture:", error);
 
     return NextResponse.json(
-      { error: "Unable to capture PayPal payment." },
+      {
+        error: "Unable to capture PayPal payment.",
+        details: process.env.NODE_ENV === "development" ? error.message : undefined,
+      },
       { status: 500 }
     );
   }

@@ -53,12 +53,6 @@ export default function Blog() {
 
         <div className={styles["title-divider"]}></div>
 
-        <Link href="/biblioteca" className={styles["library-link"]}>
-          <BookOpenIcon />
-          <span className={styles["library-text"]}>
-            {t("TextLinkLibraryPage")}
-          </span>
-        </Link>
       </header>
 
       <div className={styles["blog-filters"]}>

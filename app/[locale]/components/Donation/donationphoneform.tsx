@@ -102,23 +102,23 @@ export default function DonationPhoneForm() {
 
   return (
     <>
-      {/* Toast Container - responsive: centrado en móvil, derecha en sm+ */}
-      <div className="fixed left-1/2 top-4 z-[9999] flex w-[90%] -translate-x-1/2 flex-col gap-2 sm:left-auto sm:right-4 sm:top-4 sm:w-auto sm:translate-x-0 sm:gap-3">
+      {/* Toast Container */}
+      <div className="fixed right-4 top-4 z-[9999] flex flex-col gap-3">
         {toasts.map((toast) => (
           <div
             key={toast.id}
-            className={`flex items-center gap-2 sm:gap-3 rounded-lg px-4 py-2.5 sm:px-5 sm:py-3 shadow-lg transition-all duration-500 ${toastStyles[toast.type]}`}
+            className={`flex items-center gap-3 rounded-lg px-5 py-3 shadow-lg transition-all duration-500 animate-in slide-in-from-right-full ${toastStyles[toast.type]}`}
             style={{
               animation: "slideIn 0.4s ease-out",
             }}
           >
-            <span className="flex h-5 w-5 sm:h-6 sm:w-6 shrink-0 items-center justify-center rounded-full bg-white/20 text-xs sm:text-sm font-bold">
+            <span className="flex h-6 w-6 shrink-0 items-center justify-center rounded-full bg-white/20 text-sm font-bold">
               {toastIcons[toast.type]}
             </span>
-            <span className="text-xs sm:text-sm font-medium">{toast.message}</span>
+            <span className="text-sm font-medium">{toast.message}</span>
             <button
               onClick={() => removeToast(toast.id)}
-              className="ml-1 sm:ml-2 text-white/70 hover:text-white text-sm"
+              className="ml-2 text-white/70 hover:text-white"
             >
               ✕
             </button>
@@ -139,15 +139,15 @@ export default function DonationPhoneForm() {
         }
       `}</style>
 
-      <section className="bg-sky-500 py-12 sm:py-16 md:py-20">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6">
-          <h2 className="mx-auto mb-8 sm:mb-12 md:mb-16 max-w-5xl text-center text-2xl sm:text-3xl md:text-5xl font-bold text-white leading-tight">
+      <section className="bg-sky-500 py-20">
+        <div className="mx-auto max-w-7xl px-6">
+          <h2 className="mx-auto mb-16 max-w-5xl text-center text-3xl font-bold text-white md:text-5xl">
             {t("Title")}
           </h2>
 
           <form
             onSubmit={handleSubmit}
-            className="mx-auto flex max-w-sm sm:max-w-md flex-col gap-6 sm:gap-8"
+            className="mx-auto flex max-w-md flex-col gap-8"
           >
             <input
               type="text"
@@ -155,70 +155,63 @@ export default function DonationPhoneForm() {
               value={name}
               onChange={(e) => setName(e.target.value)}
               required
-              className="border-0 border-b border-white bg-transparent pb-2 sm:pb-3 text-base sm:text-lg text-white placeholder:text-white/80 focus:border-white focus:outline-none transition-colors"
+              className="border-0 border-b border-white bg-transparent pb-3 text-lg text-white placeholder:text-white focus:border-white focus:outline-none"
             />
 
-            <div className="phone-input-wrapper">
-              <PhoneInput
-                country="co"
-                onlyCountries={[
-                  "co",
-                  "us",
-                  "jp",
-                  "gb",
-                  "de",
-                  "it",
-                  "fr",
-                  "es",
-                  "ar",
-                  "cl",
-                  "mx",
-                  "au",
-                  "ca",
-                ]}
-                preferredCountries={["co", "us"]}
-                value={phone}
-                onChange={setPhone}
-                inputStyle={{
-                  width: "100%",
-                  background: "transparent",
-                  color: "#fff",
-                  border: "none",
-                  borderBottom: "1px solid white",
-                  borderRadius: "0",
-                  height: "44px",
-                  fontSize: "16px",
-                  paddingLeft: "52px",
-                }}
-                buttonStyle={{
-                  background: "transparent",
-                  border: "none",
-                  borderBottom: "1px solid white",
-                }}
-                dropdownStyle={{
-                  color: "#000",
-                  maxHeight: "200px",
-                  overflow: "auto",
-                }}
-                containerStyle={{
-                  width: "100%",
-                }}
-              />
-            </div>
+            <PhoneInput
+              country="co"
+              onlyCountries={[
+                "co",
+                "us",
+                "jp",
+                "gb",
+                "de",
+                "it",
+                "fr",
+                "es",
+                "ar",
+                "cl",
+                "mx",
+                "au",
+                "ca",
+              ]}
+              preferredCountries={["co", "us"]}
+              value={phone}
+              onChange={setPhone}
+              inputStyle={{
+                width: "100%",
+                background: "transparent",
+                color: "#fff",
+                border: "none",
+                borderBottom: "1px solid white",
+                borderRadius: "0",
+                height: "48px",
+                fontSize: "18px",
+                paddingLeft: "58px",
+              }}
+              buttonStyle={{
+                background: "transparent",
+                border: "none",
+                borderBottom: "1px solid white",
+              }}
+              dropdownStyle={{
+                color: "#000",
+              }}
+            />
 
-            <label className="flex items-start gap-2 sm:gap-3 text-white">
+            <label className="flex items-start gap-3 text-white">
               <input
                 type="checkbox"
                 checked={accepted}
                 onChange={(e) => setAccepted(e.target.checked)}
-                className="mt-1 h-4 w-4 sm:h-5 sm:w-5 shrink-0 cursor-pointer"
+                className="mt-1 h-5 w-5"
               />
 
-              <span className="text-xs sm:text-sm leading-5 sm:leading-6">
+              <span className="text-sm leading-6">
                 {t("PrivacyPolicyTermns")}{" "}
                 <a
                   href="/privacy-policy"
-                  className="font-semibold underline hover:text-white/80 transition-colors"
+                  className="font-semibold underline"
                 >
                   {t("LinkPrivacyPolicyText")}
                 </a>
@@ -228,7 +221,7 @@ export default function DonationPhoneForm() {
             <button
               type="submit"
               disabled={loading}
-              className="mt-2 sm:mt-4 h-12 sm:h-14 md:h-16 rounded-lg bg-white text-lg sm:text-xl md:text-2xl font-bold text-black transition duration-300 hover:scale-[1.02] hover:bg-gray-100 active:scale-[0.98] disabled:cursor-not-allowed disabled:opacity-60"
+              className="mt-4 h-16 rounded bg-white text-2xl font-bold text-black transition duration-300 hover:scale-[1.02] hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-60"
             >
               {loading ? t("Sending") : t("CallMeButtonText")}
             </button>

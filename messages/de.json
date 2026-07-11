@@ -12,7 +12,7 @@
     "Footer": {
       "Address": {
         "Title": "Adresse",
-        "FirstPiece": "Finca 156",
+        "FirstPiece": "Farm 156",
         "SecondPiece": "Vereda La Esmeralda, Marinilla, Antioquia, Kolumbien"
       },
       "Copyright": "©2026 Fundación Centro Mariana de Alfabetización - Alle Rechte vorbehalten |"
@@ -27,23 +27,23 @@
       "ThelephoneNumber": "+57 310 829 8815"
     },
     "CookieBanner": {
-      "text": "Wir verwenden eigene und Drittanbieter-Cookies, um Ihre Erfahrung zu verbessern. Indem Sie auf 'Akzeptieren' klicken, stimmen Sie der Verwendung aller Cookies gemäß unserer",
+      "text": "Wir verwenden eigene und Drittanbieter-Cookies, um Ihre Erfahrung zu verbessern. Durch Klicken auf 'Akzeptieren' stimmen Sie der Verwendung aller Cookies gemäß unserer",
       "PrivacyPolicyLink": "Cookie-Richtlinie",
       "Agree": "Akzeptieren",
       "Desagee": "Ablehnen"
     }
   },
   "Legal": {
-    "Title": "Rechtsdokumente",
-    "Text": "Informieren Sie sich über die offizielle Dokumentation unserer Stiftung",
+    "Title": "Rechtliche Dokumente",
+    "Text": "Erfahren Sie mehr über die offizielle Dokumentation unserer Stiftung",
     "Text2": "Wenn das Dokument nicht korrekt angezeigt wird, können Sie es direkt öffnen:",
-    "TextLink": "PDF anzeigen / herunterladen"
+    "TextLink": "PDF-Dokument anzeigen / herunterladen"
   },
   "Blog": {
     "Title": "Blog",
     "Subtitle": "Willkommen in unserem Blog",
     "TextLinkLibraryPage": "Virtuelle Bibliothek",
-    "CategoryNotContent": "Wir werden bald Inhalte in dieser Kategorie veröffentlichen",
+    "CategoryNotContent": "Wir werden in Kürze Inhalte in dieser Kategorie veröffentlichen",
     "buttons": {
       "all": "Alle",
       "activities": "Aktivitäten",
@@ -52,16 +52,16 @@
     "post": {
       "post1": {
         "TitlePost": "Stipendienprogramm der CMA-Stiftung",
-        "TextPost": "Informieren Sie sich über die Voraussetzungen für unsere Bildungsstipendien. Die Stipendien decken bis zu 100 % der Bildungskosten für einkommensschwache Studenten mit guten akademischen Leistungen."
+        "TextPost": "Erfahren Sie mehr über die Voraussetzungen für die Bewerbung um unsere Bildungsstipendien. Die Stipendien decken bis zu 100% der Bildungskosten für einkommensschwache Studenten mit guten akademischen Leistungen ab."
       },
       "post2": {
         "TitlePost": "CMA Weihnachten 2023",
-        "TextPost": "Erleben Sie die emotionalsten Momente unserer Weihnachtsfeier 2023 noch einmal. Danke an alle, die Teil dieses wunderbaren Tages der Freude und Einheit waren.",
-        "Part2TextPost": "Momente, die während der Weihnachtsgeschenkübergabe festgehalten wurden. Eine Arbeit, die mit Liebe für die Gemeinschaft gemacht wurde."
+        "TextPost": "Erleben Sie die emotionalsten Momente unserer Weihnachtsfeier 2023 noch einmal. Danke an alle, die Teil dieses schönen Tages der Freude und Einheit waren.",
+        "Part2TextPost": "Momente, die während des Geschenkausgabetags an Weihnachten festgehalten wurden. Eine Arbeit, die aus Liebe zur Gemeinschaft gemacht wurde."
       },
       "post3": {
         "TitlePost": "Kostenlos schulen mit der Carlos Slim Stiftung",
-        "TextPost": "Stärken Sie Ihre Fähigkeiten! Entdecken Sie diese kostenlose Schulungsmöglichkeit, die von der Carlos Slim Stiftung angeboten wird."
+        "TextPost": "Lassen Sie sich motivieren, Ihre Fähigkeiten zu stärken! Entdecken Sie diese kostenlose Trainingsmöglichkeit, die von der Carlos Slim Stiftung angeboten wird. Das Poster enthält eine Anleitung zum Starten."
       }
     }
   },
@@ -69,46 +69,46 @@
     "Title": "Über FCMA",
     "undertaking": {
       "Title": "Mission",
-      "Text": "Wir engagieren uns für die Zukunft der Kinder in La Esmeralda durch pädagogische Maßnahmen in Sprache, Mathematik, Kunst, Sport und anderen Bereichen, wobei wir Inklusion, Schutz und kognitive Entwicklung fördern."
+      "Text": "Sich für die Zukunft der Jungen und Mädchen der Vereda La Esmeralda einzusetzen, durch pädagogische Maßnahmen in Bildungsprozessen wie Sprache, Mathematik, Kunst, Sportunterricht, unter anderem; mit dem Ziel der Inklusion, indem wir ihnen Schutz, Präventionsmechanismen und Beschleunigung ihrer kognitiven Prozesse bieten."
     },
     "sight": {
       "Title": "Vision",
-      "Text": "Wir streben nationale und internationale Anerkennung als Institution an, die personalisierte Lernstrategien anwendet und positive Veränderungen in den Studiengewohnheiten und der umfassenden Entwicklung von Kindern fördert."
+      "Text": "Wir streben danach, national und international als Institution anerkannt zu werden, die über angewandte Strategien als personalisierte Initiative von Schüler zu Schüler verfügt, Veränderungen und Transformationen in ihren Studiengewohnheiten generiert und Bildungsprozesse stimuliert, die zur Entwicklung und zum Wachstum der Jungen und Mädchen in all ihren Dimensionen (körperlich, emotional, kognitiv, sozial, ethisch, etc.) beitragen."
     }
   },
   "Contact": {
-    "Title": "Kontakt",
-    "Text": "Zögern Sie nicht, uns zu kontaktieren, wenn Sie mehr über unsere Arbeit erfahren möchten, bei der wir Kinder und Jugendliche durch Bildung unterstützen. Wir beantworten gerne Ihre Fragen und erklären, wie Sie helfen können.",
+    "Title": "Kontaktieren Sie uns",
+    "Text": "Zögern Sie nicht, sich mit uns in Verbindung zu setzen, wenn Sie mehr über unsere Arbeit der akademischen Unterstützung von Kindern und Jugendlichen in vulnerablen Situationen erfahren möchten. Wir stehen Ihnen zur Verfügung, um Ihre Fragen zu beantworten, Ihnen zu erzählen, wie Sie Teil dieser solidarischen Sache werden können, oder Ihnen Informationen zu geben, wenn Sie ein Kind oder einen Jugendlichen kennen, von unserer akademischen Unterstützung profitieren könnte.",
     "ContactCard": {
       "Title": "Kontaktinformationen",
-      "Address": "Finca 156, La Esmeralda, Marinilla, Antioquia, Kolumbien",
+      "Address": "Farm 156 Vereda La Esmeralda, Marinilla, Antioquia, Kolumbien",
       "Email": "centro.marianadealfabetizacion@gmail.com",
       "ThelephoneNumber": "+57 310 829 8815",
-      "Nit": "Steuernummer: 901048308"
+      "Nit": "NIT: 901048308"
     }
   },
   "Home": {
     "ValuesText": "«Glaube, Engagement, Überwindung. Bildung als Ziel zum Fortschritt.»",
-    "DescriptionCardText": "Wir sind eine gemeinnützige Stiftung, die sich der akademischen Unterstützung von benachteiligten Kindern und Jugendlichen widmet.",
+    "DescriptionCardText": "Wir sind eine gemeinnützige Stiftung, die sich der akademischen Unterstützung von Kindern und Jugendlichen aus der Gemeinschaft widmet, die sich in einer vulnerablen Situation befinden.",
     "VideoTitle": "Unsere Geschichte, erzählt von unserer Direktorin",
     "VideoTitle2": "Einige Aktivitäten der CMA-Stiftung",
     "Comments": {
-      "Title": "Was die Leute über unsere Stiftung sagen",
+      "Title": "Einige Meinungen über die Stiftung",
       "comment_1": {
         "name": "Eliana Cardona",
-        "message": "Danke an diese wunderbare Stiftung für die Unterstützung der Bildung meines Sohnes. Er ist seit der 4. Klasse im Programm und geht jetzt in die 11. Klasse.",
+        "message": "Danke an diese wunderbare Stiftung für die akademische Unterstützung für meinen Sohn. Ich habe ihn seit der 4. Klasse im Programm und jetzt geht er in die 11. Klasse.",
         "date": "29. November 2023",
         "position": "1"
       },
       "comment_2": {
         "name": "Diana Carolina",
-        "message": "Ich danke der CMA-Stiftung und ihrer Direktorin, Beatriz, für die Unterstützung unserer Kinder. Es ist inspirierend zu sehen, wie Menschen ohne finanzielles Interesse helfen.",
+        "message": "Ich danke der CMA-Stiftung und ihrer Direktorin, Beatriz, für die Unterstützung, die sie unseren Kindern bieten. Es ist inspirierend, Menschen zu sehen, die ohne wirtschaftliches Interesse helfen.",
         "date": "23. Februar 2024",
         "position": "2"
       },
       "comment_3": {
         "name": "Liliana",
-        "message": "Danke für Ihr Engagement und Ihre Hingabe. Die Arbeit, die Sie leisten, ist wirklich wunderbar. Möge Gott Sie reichlich segnen.",
+        "message": "Danke für Ihre Hingabe und Ihr Engagement. Die Arbeit, die Sie leisten, ist wirklich schön. Möge Gott Ihnen das Doppelte von dem zurückgeben, was Sie uns geben.",
         "date": "23. Februar 2024",
         "position": "3"
       }
@@ -116,33 +116,43 @@
   },
   "Donate": {
     "Hero": {
-      "TitlePart1": "Spenden Sie an die CMA-Stiftung",
+      "TitlePart1": "Spenden Sie der CMA-Stiftung",
       "TitlePart2": "und helfen Sie uns, Bildung",
-      "TitlePart3": "zu den verletzlichsten Kindern zu bringen"
+      "TitlePart3": "zu den verletzlichsten Kindern zu bringen",
+      "LogoAlt": "Logo der Stiftung Centro Mariana de Alfabetización.",
+      "ImageAlt": "Foto von Kindern, die Mitglieder der Stiftung sind"
     },
     "DonationCard": {
       "AlertError": "Bitte geben Sie einen gültigen Betrag ein.",
       "AlertErrorOnlyUnitPay": "Monatliche Spenden werden bald verfügbar sein.",
-      "Title": "Wie möchten Sie beitragen?",
+      "Title": "Wie möchten Sie zusammenarbeiten?",
       "TextMonthButton": "Monatlich",
       "TextOneTimeButton": "Einmalig",
-      "OtherAmountInput": "Andere"
+      "OtherAmountInput": "Andere",
+      "TextDonateButton": "Spenden",
+      "Redirecting": "Weiterleitung zum Spendenportal."
     },
     "DonationPhoneFrom": {
-      "AlertPrivatePolicy": "Sie müssen die Datenschutzerklärung akzeptieren.",
+      "AlertPrivatePolicy": "Sie müssen die Datenschutzrichtlinie akzeptieren.",
       "PrivacyPolicyTermns": "Ich bestätige, dass ich die ",
       "LinkPrivacyPolicyText": "Datenschutzerklärung und den Datenschutz gelesen und akzeptiert habe.",
-      "CallMeButtonText": "Rufen Sie mich an"
+      "CallMeButtonText": "Rufen Sie mich an",
+      "Title": "Wenn Sie möchten, rufen wir Sie an",
+      "FullName": "Vollständiger Name",
+      "Sending": "E-Mail wird gesendet",
+      "SuccessMessage": "Informationen erfolgreich gesendet.",
+      "ErrorMessage": "Fehler beim Senden der Informationen."
     },
     "MiserySection": {
       "MiserySectionTitle": "Bildung verändert Leben.",
-      "MiserySectionTextPart1": "In der Mariana-Literacy-Center-Stiftung sind wir verpflichtet, Kindern und Jugendlichen aus benachteiligten Gemeinschaften Zugang zu hochwertiger Bildung zu ermöglichen.",
-      "MiserySectionTextPart2": "Ihre Spende hilft, Bildungsunterstützung, Schulmaterial und sichere Lernräume bereitzustellen.",
-      "MiserySectionButtonDonateText": "Jetzt spenden"
+      "MiserySectionTextPart1": "In der Stiftung Centro Mariana de Alfabetización setzen wir uns dafür ein, Kindern und Jugendlichen aus vulnerablen Gemeinschaften den Zugang zu hochwertiger Bildung zu ermöglichen, sie mit dem Wissen, dem Selbstvertrauen und den Möglichkeiten auszustatten, die sie brauchen, um eine vielversprechendere Zukunft aufzubauen.",
+      "MiserySectionTextPart2": "Ihre Spende hilft dabei, Bildungsunterstützung, Schulmaterial, Lernressourcen und sichere Räume bereitzustellen, in denen jedes Kind wachsen, lernen und sein volles Potenzial entfalten kann.",
+      "MiserySectionButtonDonateText": "Jetzt spenden",
+      "ImageAlt": "Kinder der Stiftung bei der Abschlussfeier"
     },
     "ProfitsSection": {
-      "ProfitsSectionTitle": "Werden Sie monatlicher Spender und genießen Sie Vorteile",
-      "ProfitsSectionText": "Helfen Sie Kindern und erhalten Sie Zugang zu exklusiven Erlebnissen",
+      "ProfitsSectionTitle": "Werden Sie monatlicher Spender und erhalten Sie Vorteile",
+      "ProfitsSectionText": "Helfen Sie den Kindern und erhalten Sie Zugang zu exklusiven Erlebnissen",
       "benefit1": {
         "Title": "Online-Veranstaltungen.",
         "Description": "Nehmen Sie an exklusiven Veranstaltungen teil.",
@@ -150,61 +160,70 @@
       },
       "benefit2": {
         "Title": "Newsletter.",
-        "Description": "Erhalten Sie die monatlichen Berichte der Stiftung.",
+        "Description": "Sie erhalten Zugang zu den monatlichen Berichten der Stiftung.",
         "Image-link": "Carrusel/newsletters.jpg"
       },
       "benefit3": {
-        "Title": "Exklusiver Inhalt.",
+        "Title": "Exklusive Inhalte.",
         "Description": "Sonderzugang zu audiovisuellem Material.",
         "Image-link": "/Carrusel/exclusive.jpg"
       }
     },
     "Faq": {
       "Title": "Häufig gestellte Fragen",
-      "Text": "Vielen Dank, dass Sie eine Spende an die CMA-Stiftung in Betracht ziehen. Hier finden Sie Antworten auf häufige Fragen.",
+      "Text": "Vielen Dank, dass Sie eine Spende an die CMA-Stiftung in Erwägung ziehen. Hier finden Sie Antworten auf einige der am häufigsten gestellten Fragen darüber, wie Sie unsere Bildungsmission unterstützen können.",
       "FirstQuestion": {
         "question": "Wie wird meine Spende verwendet?",
-        "answer": "Jede Spende unterstützt direkt Bildungsprogramme, Schulmaterial und Lernressourcen."
+        "answer": "Jede Spende unterstützt direkt die Bildungsprogramme, das Schulmaterial, die Lernressourcen und die Gemeinschaftsinitiativen, die den Kindern und Jugendlichen zugutekommen, die von der CMA-Stiftung betreut werden."
       },
       "SecondQuestion": {
         "question": "Ist meine Spende sicher?",
-        "answer": "Ja. Wir verwenden vertrauenswürdige Zahlungsanbieter, um Spenden sicher zu verarbeiten."
+        "answer": "Ja. Wir verwenden vertrauenswürdige Zahlungsanbieter, um sicherzustellen, dass jede Spende sicher verarbeitet wird und Ihre persönlichen Informationen geschützt bleiben."
       },
       "ThirdQuestion": {
-        "question": "Kann ich monatlich spenden?",
-        "answer": "Absolut. Monatliche Spenden helfen uns, langfristige Bildungsprojekte zu planen."
+        "question": "Kann ich eine monatliche Spende leisten?",
+        "answer": "Natürlich. Monatliche Spenden bieten uns eine konstante Unterstützung, die es uns ermöglicht, langfristige Bildungsprojekte zu planen und nachhaltige Auswirkungen in unserer Gemeinschaft zu erzielen."
       },
       "FourthQuestion": {
-        "question": "Kann ich meine monatliche Spende kündigen?",
-        "answer": "Ja. Sie können wiederkehrende Spenden jederzeit ändern oder kündigen."
+        "question": "Kann ich meine monatliche Spende stornieren?",
+        "answer": "Ja. Sie können Ihre wiederkehrende Spende jederzeit ändern oder stornieren, indem Sie unser Team kontaktieren oder über Ihren Zahlungsanbieter."
       },
       "FivethQuestion": {
-        "question": "Erhalte ich eine Spendenbescheinigung?",
-        "answer": "Ja. Sie erhalten eine Bestätigungs-E-Mail und eine Quittung."
+        "question": "Erhalte ich eine Spendenquittung?",
+        "answer": "Ja. Sobald Ihre Spende abgeschlossen ist, erhalten Sie eine Bestätigungs-E-Mail und eine Quittung für Ihre Unterlagen."
       },
       "SixthQuestion": {
         "question": "Warum die CMA-Stiftung unterstützen?",
-        "answer": "Ihre Großzügigkeit gibt Kindern Zugang zu Bildung und besseren Möglichkeiten."
+        "answer": "Ihre Großzügigkeit hilft, Kindern und Jugendlichen den Zugang zu Bildung, akademischer Unterstützung, Schulmaterial und Möglichkeiten zu ermöglichen, die ihnen erlauben, eine bessere Zukunft aufzubauen."
       }
     },
     "ExampleSection": {
-      "Title": "Was Ihre Spende ermöglicht",
+      "Title": "Was Ihre Spende möglich macht",
       "TextButton": "Jetzt spenden",
       "Example1": {
-        "title": "Gleiche Bildung",
-        "description": "Ihre Unterstützung bietet hochwertige Bildung und personalisierte akademische Betreuung.",
+        "title": "Gerechte Bildung",
+        "description": "Ihre Unterstützung bietet Kindern und Jugendlichen Zugang zu hochwertiger Bildung, personalisierter akademischer Beratung und Lernmöglichkeiten, die ihnen helfen, eine bessere Zukunft aufzubauen.",
         "icon": "BookOpen"
       },
       "Example2": {
         "title": "Gemeinschaftsunterstützung",
-        "description": "Spenden helfen, sichere Räume für Kinder und Familien zu schaffen.",
+        "description": "Spenden ermöglichen es uns, sichere und einladende Räume zu schaffen, in denen Kinder und Familien Orientierung, emotionale Unterstützung und Möglichkeiten erhalten, gemeinsam als Gemeinschaft zu wachsen.",
         "icon": "HeartHandshake"
       },
       "Example3": {
         "title": "Bildungsressourcen",
-        "description": "Jeder Beitrag bietet Schulmaterial, Technologie und Lernumgebungen.",
+        "description": "Jeder Beitrag hilft dabei, Schulmaterial, Bildungsressourcen, Technologie und Lernumgebungen bereitzustellen, die die Studenten inspirieren, ihr volles Potenzial zu erreichen.",
         "icon": "School"
       }
+    },
+    "Mail": {
+      "Title": "Vielen Dank! ❤️",
+      "Title2": "Spende erhalten",
+      "Text1": "Hallo",
+      "Text2": "Wir möchten Ihnen aufrichtig für Ihre großzügige Spende von ",
+      "Text3": "danken. Ihre Unterstützung ist entscheidend, damit wir weiterhin Bildungsmöglichkeiten, Schulmaterial und Hoffnung an Kinder und Jugendliche bringen können, die sie brauchen.",
+      "Text4": "Jeder Beitrag macht einen echten Unterschied im Gebiet. Danke, dass Sie an unsere Mission glauben und mit uns Leben verändern.",
+      "Text5": "Diese E-Mail bestätigt, dass Ihre Transaktion erfolgreich verarbeitet und erfasst wurde."
     }
   }
 }

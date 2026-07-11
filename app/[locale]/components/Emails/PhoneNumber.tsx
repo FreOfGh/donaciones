@@ -10,7 +10,7 @@ import {
   Text,
 } from "react-email";
 import * as React from "react";
-import DonationFooter from "../Donation/footer";
+
 interface CallRequestEmailProps {
   fullName: string;
   phone: string;
@@ -62,7 +62,22 @@ export const CallRequestEmail = ({
             Este mensaje fue generado automáticamente desde el formulario de
             contacto del sitio web de la Fundación CMA.
           </Text>
-          <DonationFooter/>
+
+          {/* Footer inline — usa <img> estándar, NO Image de next/image */}
+          <Section style={footerSection}>
+            <img
+              src="https://fundacioncma.org.co/logocma.jpeg"
+              alt="Fundación CMA"
+              width="120"
+              height="auto"
+              style={logoStyle}
+            />
+            <Text style={footerText}>
+              © 2026 Fundación Centro Mariana de Alfabetización
+              <br />
+              Finca 156, Vereda La Esmeralda, Marinilla, Antioquia
+            </Text>
+          </Section>
         </Container>
       </Body>
     </Html>
@@ -139,5 +154,26 @@ const footer = {
   marginTop: "40px",
   fontSize: "13px",
   color: "#9ca3af",
+  textAlign: "center" as const,
+};
+
+const footerSection = {
+  marginTop: "32px",
+  paddingTop: "24px",
+  borderTop: "1px solid #e5e7eb",
+  textAlign: "center" as const,
+};
+
+const logoStyle = {
+  display: "block",
+  margin: "0 auto 12px",
+  border: "0",
+  outline: "none",
+};
+
+const footerText = {
+  fontSize: "12px",
+  color: "#9ca3af",
+  lineHeight: "20px",
   textAlign: "center" as const,
 };
