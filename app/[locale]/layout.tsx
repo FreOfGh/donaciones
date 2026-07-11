@@ -6,7 +6,7 @@ import HeaderWithNav from "./components/Common/HeaderWithNav/HeaderWithNav";
 import {routing} from "@/i18n/routing";
 import DonationFooter from "@/app/[locale]/components/Donation/footer";
 import CookieBanner from "@/app/[locale]/components/Common/CookieBanner/CookieBanner";
-
+import WhatsAppButton from "@/app/[locale]/components/Common/WhatsAppButton/WhatsAppButton"
 
 type Props = {
   children: React.ReactNode;
@@ -35,6 +35,7 @@ export default async function LocaleLayout({
           {children}
           <DonationFooter />
           <CookieBanner/>
+          <WhatsAppButton/>
         </NextIntlClientProvider>
       </body>
     </html>
