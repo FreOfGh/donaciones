@@ -28,15 +28,7 @@ export default function Contact() {
           </div>
 
           <div className={styles["map-wrapper"]}>
-            <iframe
-              title={t("ContactCard.Title")}
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.7503792462014!2d-75.34213282520068!3d6.174661627455575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442ef775646b03%3A0x6b95bc88990d1372!2sVereda%20La%20Esmeralda%2C%20Marinilla%2C%20Antioquia!5e0!3m2!1ses-419!2sco!4v1715011603136!5m2!1ses-419!2sco"
-              width="100%"
-              height="300"
-              style={{ border: 0 }}
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-            />
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d281.51246306088103!2d-75.32063618020838!3d6.13052385274907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e1!3m2!1ses!2sco!4v1784415692801!5m2!1ses!2sco" width="600" height="450" allow="fullscreen" loading="lazy"></iframe>
           </div>
 
           <div className={styles["contact-item"]}>
