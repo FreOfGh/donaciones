@@ -29,7 +29,7 @@ export default function RootLayout({
     <html
       className={`${geistSans.variable} ${geistMono.variable}`}
     >
-      <Analytics/>S
+      <Analytics/>
       <body>{children}</body>
     </html>
   );
