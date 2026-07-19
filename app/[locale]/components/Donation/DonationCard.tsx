@@ -203,7 +203,7 @@ export default function DonationCard() {
             placeholder={t("AmountPlaceholder")}
             value={customAmount}
             onChange={(e) => setCustomAmount(e.target.value)}
-            className="mt-3 sm:mt-4 w-full rounded-lg border border-gray-300 p-2.5 sm:p-3 text-sm sm:text-base focus:border-sky-500 focus:ring-2 focus:ring-sky-200 outline-none transition"
+            className="mt-3  text-black sm:mt-4 w-full rounded-lg border border-gray-300 p-2.5 sm:p-3 text-sm sm:text-base focus:border-sky-500 focus:ring-2 focus:ring-sky-200 outline-none transition"
           />
         )}
 
