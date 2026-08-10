@@ -7,24 +7,42 @@ import DonationPhoneForm from '@/app/[locale]/components/Donation/donationphonef
 import ExampleSection from '@/app/[locale]/components/Donation/examplesection'
 import type { Metadata } from 'next'
 import Hero from '@/app/[locale]/components/Donation/hero'
-const opengraphImage = process.env.NEXT_PUBLIC_SITE_URL + '/escucdofundacion.jpeg'
+
 export const metadata: Metadata = {
-    title: 'Donation page fundacion Centro Mariana de Alfabetización',
-    description: 'Page for donations to support the education of the chilhood in the Esmeralda Town',
+    title: 'Donaciones',
+    description: 'Haz tu donación para apoyar la educación y el bienestar de niñas, niños y familias en La Esmeralda, Marinilla.',
     alternates: {
-        canonical: process.env.NEXT_PUBLIC_SITE_URL ,
+        canonical: '/donatepage',
         languages: {
-            'en': process.env.NEXT_PUBLIC_SITE_URL,
+            es: '/es/donatepage',
+            en: '/en/donatepage',
+            ja: '/ja/donatepage',
+            fr: '/fr/donatepage',
+            de: '/de/donatepage',
+            it: '/it/donatepage',
         }
     },
-    openGraph:{
-        title: 'Donation page fundacion Centro Mariana de Alfabetización',
-        description: 'Page for donations to support the education of the chilhood in the Esmeralda Town Antioquia Colombia',
-        url: process.env.NEXT_PUBLIC_SITE_URL + '/donation',
+    openGraph: {
+        type: 'website',
+        title: 'Donaciones | Fundación Centro Mariana de Alfabetización',
+        description: 'Apoya nuestros programas educativos y sociales con tu aporte.',
+        url: '/donatepage',
         siteName: 'Fundacion Centro Mariana de Alfabetización',
-
-
-    }
+        images: [
+            {
+                url: '/hero/principal.jpg',
+                width: 1200,
+                height: 630,
+                alt: 'Donaciones Fundación Centro Mariana de Alfabetización',
+            },
+        ],
+    },
+    twitter: {
+        card: 'summary_large_image',
+        title: 'Donaciones | Fundación Centro Mariana de Alfabetización',
+        description: 'Apoya nuestros programas educativos y sociales con tu aporte.',
+        images: ['/hero/principal.jpg'],
+    },
 }
 export default function DonationPage() {
     return (
@@ -38,5 +56,4 @@ export default function DonationPage() {
         </div>
     )
 }
-
 

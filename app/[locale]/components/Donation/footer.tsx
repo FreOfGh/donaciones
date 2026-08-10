@@ -116,7 +116,7 @@ export default function DonationFooter() {
           <p>{t("Footer.Copyright")}</p>
 
           <Link
-            href="/aviso-legal"
+            href="/legal"
             className="underline hover:text-white"
           >
             Legal Notice
