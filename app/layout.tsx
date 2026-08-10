@@ -14,8 +14,36 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fundación CMA",
-  description: "Fundación Centro Mariana de Alfabetización",
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://fundacioncma.org"),
+  title: {
+    default: "Fundación Centro Mariana de Alfabetización",
+    template: "%s | Fundación CMA",
+  },
+  description: "Fundación Centro Mariana de Alfabetización en Marinilla, Antioquia. Apoyamos procesos educativos y comunitarios para niñas, niños y familias.",
+  alternates: {
+    canonical: "/",
+  },
+  openGraph: {
+    type: "website",
+    siteName: "Fundación Centro Mariana de Alfabetización",
+    title: "Fundación Centro Mariana de Alfabetización",
+    description: "Apoyamos procesos educativos y comunitarios para niñas, niños y familias.",
+    url: "/",
+    images: [
+      {
+        url: "/logocma.jpeg",
+        width: 1200,
+        height: 630,
+        alt: "Fundación Centro Mariana de Alfabetización",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fundación Centro Mariana de Alfabetización",
+    description: "Apoyamos procesos educativos y comunitarios para niñas, niños y familias.",
+    images: ["/logocma.jpeg"],
+  },
 };
 
 

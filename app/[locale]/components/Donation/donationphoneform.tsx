@@ -3,6 +3,7 @@
 import { useState, useEffect, useCallback } from "react";
 import { useTranslations } from "next-intl";
 import PhoneInput from "react-phone-input-2";
+import { Link } from "@/i18n/navigation";
 import "react-phone-input-2/lib/style.css";
 
 type ToastType = "success" | "error" | "warning";
@@ -209,12 +210,12 @@ export default function DonationPhoneForm() {
 
               <span className="text-sm leading-6">
                 {t("PrivacyPolicyTermns")}{" "}
-                <a
+                <Link
                   href="/privacy-policy"
                   className="font-semibold underline"
                 >
                   {t("LinkPrivacyPolicyText")}
-                </a>
+                </Link>
               </span>
             </label>
 

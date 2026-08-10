@@ -103,7 +103,7 @@ export default function DonationFooter() {
             ©2026 Fundación Centro Mariana de Alfabetización - All rights reserved |
 
             <Link
-              href="/aviso-legal"
+              href="/legal"
               className="ml-2 underline hover:text-white"
             >
               Legal Notice
